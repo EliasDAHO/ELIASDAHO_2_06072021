@@ -1,5 +1,6 @@
-* {
-  margin: 0;
+@font-face {
+  font-family: "raleway";
+  src: url(fonts/Raleway-VariableFont_wght.ttf);
 }
   html {
     width: 100%;
@@ -26,11 +27,16 @@
     width: 100px;
     height: auto;
   }
+  .navigationmobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   nav {
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 0;
+  padding-right: 1.5em;
   }
   nav ul {
     display: -webkit-box;
