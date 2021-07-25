@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-  }
+  margin: 0;
+}
   html {
     width: 100%;
     -webkit-overflow-x: hidden;
@@ -38,7 +38,7 @@
     display: flex;
     list-style-type: none;
     margin-top: 0;
-    margin-right: 2vw;
+    margin-right: 10%;
   }
   nav ul li {
     border-top: solid 2.5px transparent;
@@ -55,4 +55,19 @@
     margin-right: 5vw;
     padding-top: 38px;
   }
- 
+  .search {
+    margin-left: 1em;
+  }
+  .search h1 {
+    font-size: 22px;
+    margin-top: 1vw;
+    clear: left;
+  }
+  .search p {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+
+  
