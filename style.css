@@ -80,15 +80,12 @@
     margin-bottom: 20px;
     font-size: 16px;
   }
-  .search {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  #formulaire {
+    margin-top: 2.2vh;
+    font-size: 1.2rem;
     display: flex;
-    height: 50px;
-    margin-bottom: 30px;
   }
-  .fa-map-marker-alt
-{   
+  .fa-map-marker-alt{   
   background-color: #F2F2F2;
   padding: 1rem 1.25rem;
   border-radius: 1rem 0 0 1rem;
@@ -105,15 +102,15 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #f2f2f271;
     font-size: 1.2em;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
   }
   .searchfield {
     width: 12rem;
-    border-top: solid #f2f2f2 1px;
-    border-bottom: solid #f2f2f2 1px;
+    border-top: solid #f2f2f2 2px;
+    border-bottom: solid #f2f2f2 2px;
     border-left: none;
     border-right: none;
     font-family: "Raleway", sans-serif;
@@ -134,18 +131,166 @@
     position: relative;
     cursor: pointer;
   }
-  .iconesearch
-{
+  .iconesearch{    
     display: none;
 }
-/*section filtre*/
+.filter {
+  margin-left: 1.5vw;
+}
+.filtres {
+  margin-bottom: 10px;
+}
+.filterstitle {
+  float: left;
+  margin-right: 2.2vw;
+  padding-top: 15px;
+}
+.icontextfilters {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #deebff;
+  border-radius: 30px;
+  margin-left: 1em;
+} 
+.icontextfilters :hover {
+  background-color: #0065fc;
+  color: white;
+  cursor: pointer; 
+}
 
-  .filter {
-    display: flex;
-    flex-wrap: wrap;
-    grid-gap: 2vw;
-    align-items: center;
-    justify-content: flex-start;
-    margin-bottom: 50px;
+.filtericoneconomique {
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 100%;
+  height: 3.25rem;
+  width: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtericonfamilial {
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 100%;
+  height: 3.25rem;
+  width: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtericonromantique {
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 100%;
+  height: 3.25rem;
+  width: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filtericonanimaux {
+  background-color: #DEEBFF;
+  color: blue;
+  border-radius: 100%;
+  height: 3.25rem;
+  width: 3.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fas .fa{
+  color: blue;
+}
+.icontextfilter {
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  border: 2px solid #d9d9d9;
+}
+.infoicon {
+  float: left;
+  margin-right: 12px;
+  font-size: 0.8em;
+  border: solid #f2f2f2 2px;
+  border-radius: 50%;
+  color: #0065fc;
+  padding: 0.4em 0.85em;
+}
+.filter p {
+  display: flex;
+  font-size: 1.0em ;
+  align-items: center;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 1.5vw;
+}
+.principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.container {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  margin-top: 2.5vw;
+  width: 67%;
+}
+.boxhebergements {
+  width: 30%;
+  height: 30%;
+  background-color: white;
+  border-radius: 25px;
+  padding: 0.35em;
+  margin: 10px 0 25px 0;
+  -webkit-box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+}
+.boxhebergements:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.image_hebergement {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 50%;
+  height: 39%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.stars {
+  color: #0065fc;
+  font-size: 0.8vw;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.etoilegrise {
+  color: rgb(201, 201, 201);
+  font-size: 0.8vw;
+}
+.popularstars {
+  margin-top: 3vw;
+  color: #0065fc;
+  font-size: 0.8vw;
+  margin-left: 10px;
 }
 
