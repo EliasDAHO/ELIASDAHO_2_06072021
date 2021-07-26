@@ -1,6 +1,5 @@
-@font-face {
-  font-family: "raleway";
-  src: url(fonts/Raleway-VariableFont_wght.ttf);
+* {
+  margin: 0;
 }
   html {
     width: 100%;
@@ -53,6 +52,12 @@
   nav ul li:hover {
     border-top: solid 2.5px #0065fc;
   }
+.Hebergements a:hover {
+  color: #0065fc;
+}
+.Activites a:hover {
+  color: #0065fc;
+}
  .sinscrire {
     font-weight: bolder;
     font-size: 16px;
@@ -61,19 +66,86 @@
     margin-right: 5vw;
     padding-top: 38px;
   }
-  .search {
-    margin-left: 1em;
+  .recherche {
+    margin-left: 3.3vw;
   }
-  .search h1 {
+  .recherche h1 {
     font-size: 22px;
     margin-top: 1vw;
+    margin-right: 20px;
     clear: left;
   }
-  .search p {
+  .recherche p {
     margin-left: 0;
     margin-bottom: 20px;
     font-size: 16px;
   }
-  
+  .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  .fa-map-marker-alt
+{   
+  background-color: #F2F2F2;
+  padding: 1rem 1.25rem;
+  border-radius: 1rem 0 0 1rem;
+  text-align: center;
+}
+  .mapmarker {
+    min-width: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-size: 1.2em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .searchfield {
+    width: 12rem;
+    border-top: solid #f2f2f2 1px;
+    border-bottom: solid #f2f2f2 1px;
+    border-left: none;
+    border-right: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    padding-left: 20px;
+  }
+  .searchbutton {
+    width: 132px;
+    background-color: #0065fc;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+  }
+  .iconesearch
+{
+    display: none;
+}
+/*section filtre*/
 
-  
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 2vw;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
