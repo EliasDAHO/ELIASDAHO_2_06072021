@@ -249,11 +249,11 @@ main {
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-top: 2.5vw;
-  width: 67%;
+  width: 80%;
 }
 .boxhebergements {
-  width: 30%;
-  height: 30%;
+  width: 16.5vw;
+  height: 13vw;
   background-color: white;
   border-radius: 25px;
   padding: 0.35em;
@@ -272,8 +272,8 @@ main {
 .image_hebergement {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  width: 50%;
-  height: 39%;
+  width: 100%;
+  height: 59%;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -293,4 +293,106 @@ main {
   font-size: 0.8vw;
   margin-left: 10px;
 }
-
+h2 {
+  font-size: 1.7vmax;
+  margin: 3.3vw 0 1.2vw 2.8vw;
+}
+h3 {
+  font-size: 1.3vw;
+  margin-left: 10px;
+  margin-top: 2px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+p {
+  font-size: 1vw;
+  margin: 2px 0 10px 10px;
+}
+a {
+  text-decoration: none;
+  color:black ;
+}
+.plusderesultats {
+  font-weight: bold;
+  font-size: 1.2vmax;
+  margin-left: 2.8vw;
+}
+.populaires {
+  background-color: #f2f2f2;
+  border-radius: 25px;
+  width: 30%;
+  margin-top: 2.5vw;
+  padding-bottom: 20px;
+  position: relative;
+}
+.charticon {
+  position: absolute;
+  top: 3.3vw;
+  right: 3vw;
+  font-size: 1.5vw;
+}
+.boxpopulaires {
+  display: inline-block;
+  padding: 1em;
+  width: 23vw;
+  height: 8.5vw;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+}
+.boxpopulaires:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.image_populaires {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 50%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: left;
+  padding-right: 10px;
+  margin-right: 0.8vw;
+}
+.asidepopulaires {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+figure {
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 2px 20px rgb(230, 230, 230);
+  box-shadow: 2px 2px 20px rgb(230, 230, 230);
+}
+figure:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+figcaption {
+  font-weight: bold;
+  font-size: 1.2vmax;
+  margin-left: 1.4em;
+  margin-top: 0.3em;
+}
+#Activites h2 {
+  margin: 4vw 2.2vw 2vw 3.5vw;
