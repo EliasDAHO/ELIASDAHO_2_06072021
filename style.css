@@ -1,7 +1,7 @@
 * {
   margin: 0;
 }
-  html {
+html {
     width: 100%;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
@@ -66,10 +66,10 @@
     margin-right: 5vw;
     padding-top: 38px;
   }
-  .recherche {
+  .search {
     margin-left: 3.3vw;
   }
-  .recherche h1 {
+  .search h1 {
     font-size: 22px;
     margin-top: 1vw;
     margin-right: 20px;
@@ -133,17 +133,17 @@
   }
   .iconesearch{    
     display: none;
-}
-.filter {
-  margin-left: 1.5vw;
-}
-.filtres {
+  }
+  .filter {
+  margin-left: 3.3vw;
+  }
+  .filtres {
   margin-bottom: 10px;
 }
 .filterstitle {
   float: left;
   margin-right: 2.2vw;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 .icontextfilters {
   margin-top: 15px;
@@ -232,7 +232,7 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0 1.5vw;
+  margin: 0  1.5vw ;
 }
 .principal {
   display: -webkit-box;
@@ -244,12 +244,13 @@ main {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-bottom: 20px;
+  
 }
 .container {
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-top: 2.5vw;
-  width: 80%;
+  width: 67%;
 }
 .boxhebergements {
   width: 16.5vw;
@@ -258,8 +259,9 @@ main {
   border-radius: 25px;
   padding: 0.35em;
   margin: 10px 0 25px 0;
-  -webkit-box-shadow: 4px 2px 20px rgb(201, 201, 201);
-  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  -webkit-box-shadow: 4px 2px 20px rgba(201, 201, 201, 0.616);
+  box-shadow: 4px 2px 20px rgba(201, 201, 201, 0.616);
+  
 }
 .boxhebergements:hover {
   -webkit-transform: scale(1.05);
@@ -340,7 +342,7 @@ a {
   margin-top: 10px;
   background-color: white;
   border-radius: 20px;
-  -webkit-box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  -webkit-box-shadow: 4px 2px 20px  rgb(201, 201, 201);
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
 }
 .boxpopulaires:hover {
@@ -396,3 +398,119 @@ figcaption {
 }
 #Activites h2 {
   margin: 4vw 2.2vw 2vw 3.5vw;
+}
+.sectionactivites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0 3.3vw 3.5vw;
+  height: 31.5vw;
+}
+.boxactivites_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+}
+.boxactivites_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding: 0;
+}
+.boxactivites_a {
+  width: 21vw;
+  padding: 0;
+  margin: 0;
+}
+.boxactivites_b {
+  width: 21vw;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+.boxactivites_c {
+  width: 21vw;
+  height: 41%;
+  padding: 0;
+  margin: 0;
+}
+.imageactivites_a {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 85%;
+  padding-bottom: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.imageactivites_b {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 70%;
+  padding-bottom: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.imageactivites_c {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 63%;
+  padding-bottom: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #f2f2f2;
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+footer h5 {
+  font-size: 1.2vw;
+  margin-bottom: 1.4em;
+  padding: 0;
+}
+footer ul {
+  padding: 0;
+}
+footer ul li {
+  list-style-type: none;
+  margin-bottom: 1.2em;
+  font-size: 1.1vw;
+}
+.apropos {
+  margin-right: 13vw;
+  margin-left: 3.5vw;
+}
+.hebergementsfooter {
+  margin-right: 13vw;
+  margin-left: 3.5vw;
+}
+.assistance {
+  margin-right: 13vw;
+  margin-left: 3.5vw;
+}
+.apropos ul li:hover,
+.hebergementsfooter ul li:hover,
+.assistance ul li:hover {
+  -webkit-text-stroke: 1px black;
+}
+
