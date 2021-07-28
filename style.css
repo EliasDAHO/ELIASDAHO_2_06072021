@@ -75,7 +75,7 @@ html {
     margin-right: 20px;
     clear: left;
   }
-  .recherche p {
+  .search p {
     margin-left: 0;
     margin-bottom: 20px;
     font-size: 16px;
@@ -138,7 +138,7 @@ html {
   margin-left: 3.3vw;
   }
   .filtres {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .filterstitle {
   float: left;
@@ -514,3 +514,28 @@ footer ul li {
   -webkit-text-stroke: 1px black;
 }
 
+@media screen and (min-width: 500px) and (max-width: 5000px) {
+  #searchbutton {
+    color: transparent;
+    background-color: transparent;
+  }
+}
+@media screen and (max-width: 980px) {
+  .container {
+    padding-bottom: 25px;
+  }
+  .principal {
+    margin-bottom: 1vw;
+  }
+  .boxhebergements {
+    width: 22vw;
+    height: 17vw;
+  }
+  .imagepopulaires {
+    padding-right: 0.6vw;
+  }
+  .plusderesultats {
+    font-size: 1.6vw;
+  }
+
+}
