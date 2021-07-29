@@ -44,7 +44,7 @@ html {
     list-style-type: none;
     margin-top: 0;
     margin-right: 10%;
-  }
+   }
   nav ul li {
     border-top: solid 2.5px transparent;
     padding: 38px 30px 0 30px;
@@ -137,29 +137,36 @@ html {
   .filter {
   margin-left: 3.3vw;
   }
-  .filtres {
+  .filters {
   margin-bottom: 20px;
-}
-.filterstitle {
-  float: left;
-  margin-right: 2.2vw;
-  padding-top: 10px;
-}
-.icontextfilters {
-  margin-top: 15px;
   display: flex;
+ }
+.filterstitle {
+  font-size: 1.4em;
+  float: left;
+  margin-right: 30px;
+  margin-left: auto;
+}
+.icon-text-filters{
+  margin-top: 30px;
+  display:  flex ;
   align-items: center;
   border: 1px solid #deebff;
-  border-radius: 30px;
-  margin-left: 1em;
+  border-radius: 60px;
+  margin-left: 1.2em;
+  max-width: 200px ;
+  padding-right: 25px;
+  font-weight: bold;
+  font-size: 1em;
+  
 } 
-.icontextfilters :hover {
+.icon-text-filters :hover {
   background-color: #0065fc;
   color: white;
   cursor: pointer; 
 }
 
-.filtericoneconomique {
+.filter-icon-economic {
   background-color: #DEEBFF;
   color: blue;
   border-radius: 100%;
@@ -168,8 +175,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
-.filtericonfamilial {
+.filter-icon-family {
   background-color: #DEEBFF;
   color: blue;
   border-radius: 100%;
@@ -178,8 +186,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px
 }
-.filtericonromantique {
+.filter-icon-lover {
   background-color: #DEEBFF;
   color: blue;
   border-radius: 100%;
@@ -188,8 +197,9 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px
 }
-.filtericonanimaux {
+.filter-icon-animals {
   background-color: #DEEBFF;
   color: blue;
   border-radius: 100%;
@@ -198,31 +208,23 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 5px
 }
 .fas .fa{
   color: blue;
 }
-.icontextfilter {
-  border-radius: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 50px;
-  border: 2px solid #d9d9d9;
-}
-.infoicon {
+.info-icon {
   float: left;
   margin-right: 12px;
   font-size: 0.8em;
   border: solid #f2f2f2 2px;
-  border-radius: 50%;
+  border-radius:80%;
   color: #0065fc;
   padding: 0.4em 0.85em;
 }
 .filter p {
-  display: flex;
-  font-size: 1.0em ;
-  align-items: center;
+  margin-top: 28px;
+  font-size: 1em;
 }
 
 main {
@@ -252,7 +254,7 @@ main {
   margin-top: 2.5vw;
   width: 67%;
 }
-.boxhebergements {
+.box-lodging {
   width: 16.5vw;
   height: 13vw;
   background-color: white;
@@ -263,7 +265,7 @@ main {
   box-shadow: 4px 2px 20px rgba(201, 201, 201, 0.616);
   
 }
-.boxhebergements:hover {
+.box-lodging:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
@@ -271,7 +273,7 @@ main {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-.image_hebergement {
+.image_lodging {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
@@ -285,11 +287,11 @@ main {
   margin-left: 10px;
   margin-top: 0;
 }
-.etoilegrise {
+.grey-star {
   color: rgb(201, 201, 201);
   font-size: 0.8vw;
 }
-.popularstars {
+.popular-stars {
   margin-top: 3vw;
   color: #0065fc;
   font-size: 0.8vw;
@@ -314,12 +316,12 @@ a {
   text-decoration: none;
   color:black ;
 }
-.plusderesultats {
+.more-results{
   font-weight: bold;
   font-size: 1.2vmax;
   margin-left: 2.8vw;
 }
-.populaires {
+.popular {
   background-color: #f2f2f2;
   border-radius: 25px;
   width: 30%;
@@ -333,7 +335,7 @@ a {
   right: 3vw;
   font-size: 1.5vw;
 }
-.boxpopulaires {
+.box-populars {
   display: inline-block;
   padding: 1em;
   width: 23vw;
@@ -345,7 +347,7 @@ a {
   -webkit-box-shadow: 4px 2px 20px  rgb(201, 201, 201);
   box-shadow: 4px 2px 20px rgb(201, 201, 201);
 }
-.boxpopulaires:hover {
+.box-populars:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
@@ -353,7 +355,7 @@ a {
   -o-transition: 0.4s;
   transition: 0.4s;
 }
-.image_populaires {
+.image_popular {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   width: 50%;
@@ -364,7 +366,7 @@ a {
   padding-right: 10px;
   margin-right: 0.8vw;
 }
-.asidepopulaires {
+.aside-popular {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,7 +398,7 @@ figcaption {
   margin-left: 1.4em;
   margin-top: 0.3em;
 }
-#Activites h2 {
+#Activities h2 {
   margin: 4vw 2.2vw 2vw 3.5vw;
 }
 .sectionactivites {
