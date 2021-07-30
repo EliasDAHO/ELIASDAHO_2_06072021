@@ -46,39 +46,37 @@ html {
     margin-right: 10%;
    }
   nav ul li {
-    border-top: solid 2.5px transparent;
+    border-top: solid 2.5px transparent ;
     padding: 38px 30px 0 30px;
+    font-weight: bold;
   }
   nav ul li:hover {
     border-top: solid 2.5px #0065fc;
   }
-.Hebergements a:hover {
-  color: #0065fc;
-}
-.Activites a:hover {
-  color: #0065fc;
-}
- .sinscrire {
-    font-weight: bolder;
-    font-size: 16px;
+  .menuitem a:hover {
     color: #0065fc;
-    float: right;
-    margin-right: 5vw;
-    padding-top: 38px;
   }
+  .sinscrire {
+  font-weight: bolder;
+  font-size: 16px;
+  color: #0065fc;
+}
   .search {
     margin-left: 3.3vw;
   }
   .search h1 {
     font-size: 22px;
-    margin-top: 1vw;
+    margin-top: 1em;
     margin-right: 20px;
     clear: left;
+    color: rgb(0, 0, 0)
   }
   .search p {
     margin-left: 0;
     margin-bottom: 20px;
+    margin-top: 1em;
     font-size: 16px;
+    color: rgba(0, 0, 0, 0.425)
   }
   #formulaire {
     margin-top: 2.2vh;
@@ -106,6 +104,7 @@ html {
     font-size: 1.2em;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    color: black
   }
   .searchfield {
     width: 12rem;
@@ -146,6 +145,7 @@ html {
   float: left;
   margin-right: 30px;
   margin-left: auto;
+  color: black
 }
 .icon-text-filters{
   margin-top: 30px;
@@ -300,7 +300,7 @@ h2 {
   margin: 3.3vw 0 1.2vw 2.8vw;
 }
 h3 {
-  font-size: 1em;
+  font-size: 0.97em;
   margin-left: 10px;
   margin-top: 2px;
   padding-bottom: 0;
@@ -483,7 +483,7 @@ footer {
   padding-bottom: 30px;
   padding-top: 40px;
 }
-footer h5 {
+footer h4 {
   font-size: 1.2vw;
   margin-bottom: 1.4em;
   padding: 0;
