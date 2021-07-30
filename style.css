@@ -226,7 +226,6 @@ html {
   margin-top: 28px;
   font-size: 1em;
 }
-
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -234,7 +233,7 @@ main {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 0  1.5vw ;
+  margin: 0 3.3vw;
 }
 .principal {
   display: -webkit-box;
@@ -246,7 +245,6 @@ main {
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   margin-bottom: 20px;
-  
 }
 .container {
   background-color: #f2f2f2;
@@ -261,9 +259,8 @@ main {
   border-radius: 25px;
   padding: 0.35em;
   margin: 10px 0 25px 0;
-  -webkit-box-shadow: 4px 2px 20px rgba(201, 201, 201, 0.616);
-  box-shadow: 4px 2px 20px rgba(201, 201, 201, 0.616);
-  
+  -webkit-box-shadow: 4px 2px 20px rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201, 201, 201);
 }
 .box-lodging:hover {
   -webkit-transform: scale(1.05);
@@ -291,6 +288,7 @@ main {
   color: rgb(201, 201, 201);
   font-size: 0.8vw;
 }
+
 .popular-stars {
   margin-top: 3vw;
   color: #0065fc;
@@ -298,11 +296,11 @@ main {
   margin-left: 10px;
 }
 h2 {
-  font-size: 1.7vmax;
+  font-size: 1.5em;
   margin: 3.3vw 0 1.2vw 2.8vw;
 }
 h3 {
-  font-size: 1.3vw;
+  font-size: 1em;
   margin-left: 10px;
   margin-top: 2px;
   padding-bottom: 0;
