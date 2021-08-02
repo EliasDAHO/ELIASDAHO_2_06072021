@@ -48,8 +48,7 @@ html {
   nav ul li {
     border-top: solid 2.5px transparent ;
     padding: 38px 30px 0 30px;
-    font-weight: bold;
-  }
+    }
   nav ul li:hover {
     border-top: solid 2.5px #0065fc;
   }
@@ -149,7 +148,7 @@ html {
 }
 .icon-text-filters{
   margin-top: 30px;
-  display:  flex ;
+  display: flex;
   align-items: center;
   border: 1px solid #deebff;
   border-radius: 60px;
@@ -158,12 +157,13 @@ html {
   padding-right: 25px;
   font-weight: bold;
   font-size: 1em;
-  
-} 
+  } 
 .icon-text-filters :hover {
   cursor: pointer;
   background-color: #DEEBFF;
-  
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 } 
 
 .filter-icon-economic {
@@ -525,9 +525,78 @@ footer ul li {
     padding-bottom: 25px;
   }
 .principal {
-  margin-bottom: 1em;
+  margin-bottom: 100%;
 }
-
-
+.box-lodging {
+  width: 22vw;
+  height: 17vw;
+}
+.image_popular {
+  padding-right: 0.6vw;
+}
+.more-results {
+  font-size: 1.6vw;
+ }
+}
+@media screen and (max-width: 800px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .popular {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.8vw;
+  }
+  .charticon {
+    font-size: 1.8vw;
+  }
+  .aside-popular {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  .box-populars {
+    width: 28vw;
+    height: 12vw;
+  }
+  .container {
+    width: 100%;
+  }
+  .box-lodging {
+    width: 25vw;
+    height: 20vw;
+  }
+  h3 {
+    font-size: 1.7vw;
+  }
+  .box-lodging p,
+  .box-populars p {
+    font-size: 1.5vw;
+  }
+  .stars,
+  .grey-star {
+    font-size: 1.4vw;
+  }
+  .popular-stars {
+    font-size: 1.4vw;
+  }
+  .imageactivites_a,
+  .imageactivites_b,
+  .imageactivites_c {
+    padding-bottom: 0.2vw;
+  }
+  figcaption {
+    font-size: 1.2vw;
+    margin-top: 5px;
+  }
+}
 
 
