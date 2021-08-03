@@ -539,7 +539,7 @@ footer ul li {
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
   }
-  .populaires {
+  .popular {
     width: 100%;
   }
   h2 {
@@ -548,7 +548,7 @@ footer ul li {
   .charticon {
     font-size: 1.2em;
   }
-  .asidepopulaires {
+  .aside-popular {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-direction: row;
@@ -557,29 +557,29 @@ footer ul li {
     -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
   }
-  .boxpopulaires {
+  .box-populars {
     width: 28%;
     height: 12%;
   }
   .container {
     width: 100%;
   }
-  .boxhebergements {
+  .box-lodging {
     width: 25%;
     height: 20%;
   }
   h {
     font-size: 1em;
   }
-  .boxhebergements p,
-  .boxpopulaires p {
+  .box-lodging p,
+  .box-populars p {
     font-size: 1.3em;
   }
-  .etoiles,
-  .etoilegrise {
+  .stars,
+  .grey-star {
     font-size: 1.2em;
   }
-  .etoilespopulaires {
+  .popular-stars {
     font-size: 1.2em;
   }
   .imageactivites_a,
