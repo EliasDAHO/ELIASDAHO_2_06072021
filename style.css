@@ -514,32 +514,81 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
-@media only screen and (max-width: 722px) {
-	html {
-		overflow-x: hidden;
-	}
-
-	body {
-		margin: 0;
-		overflow-x: hidden;
-	  }
-  #logo {
-		margin-top: 25px;
-		margin-left: 5%;
-		position: absolute;
-		padding: 0;
-	  }
-  .navigationmobile{
-		width: 100%;
-		position: relative;
-		flex-direction: column-reverse;
-	  }
-    nav ul {
-      width: 100%;
-      padding-left: 0;
-      margin-right: 0;
-      }
-    nav ul li {
-		border-bottom: solid 2.5px transparent ;
-		padding-bottom: 15px;
-	  }
+@media screen and (max-width: 980px) {
+  .container {
+    padding-bottom: 25px;
+  }
+  .principal {
+    margin-bottom: 1%;
+  }
+  .box-lodging {
+    width: 22%;
+    height: 17%;
+  }
+  .image_popular {
+    padding-right: 0.6%;
+  }
+  .more-results {
+    font-size: 1.6%;
+  }
+}
+@media screen and (max-width: 800px) {
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .populaires {
+    width: 100%;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  .charticon {
+    font-size: 1.2em;
+  }
+  .asidepopulaires {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+  }
+  .boxpopulaires {
+    width: 28%;
+    height: 12%;
+  }
+  .container {
+    width: 100%;
+  }
+  .boxhebergements {
+    width: 25%;
+    height: 20%;
+  }
+  h {
+    font-size: 1em;
+  }
+  .boxhebergements p,
+  .boxpopulaires p {
+    font-size: 1.3em;
+  }
+  .etoiles,
+  .etoilegrise {
+    font-size: 1.2em;
+  }
+  .etoilespopulaires {
+    font-size: 1.2em;
+  }
+  .imageactivites_a,
+  .imageactivites_b,
+  .imageactivites_c {
+    padding-bottom: 0.2%;
+  }
+  figcaption {
+    font-size: 1.2em;
+    margin-top: 5px;
+  }
+}
