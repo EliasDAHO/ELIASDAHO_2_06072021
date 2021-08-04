@@ -906,9 +906,10 @@ footer ul li {
 }
 @media screen and (max-width: 350px) {
   .container h2,
-  .popular h2 {
-    margin:  10px 30px 10px;
-    font-size: 0.7em;
+  .populaires h2 {
+    margin: 35px 10px 10px 25px;
+    font-size: 3.5vmax;
+  }
   }
   #Activities h2 {
     font-size: 0.7em;
@@ -934,4 +935,12 @@ footer ul li {
   }
   .popular .grey-star {
     font-size: 0.9em;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
   }
