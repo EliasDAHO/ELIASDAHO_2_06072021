@@ -907,7 +907,7 @@ footer ul li {
 @media screen and (max-width: 350px) {
   .container h2,
   .popular h2 {
-    margin: 35px 10px 10px 25px;
+    margin:  10px 30px 10px;
     font-size: 0.7em;
   }
   #Activities h2 {
