@@ -513,3 +513,125 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
+
+@media screen and (max-width: 450px) {
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+.navigationmobile {
+  width: 90%;
+  position: absolute;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+nav ul {
+  width: 100%;
+  padding-left: 0;
+  margin-right: 0;
+}
+nav ul li {
+  border-bottom: solid 2.5px #f2f2f2;
+  padding-bottom: 15px;
+}
+.menu-item {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+nav ul li:hover {
+  border-bottom: solid 2.5px #0065fc;
+  border-top: solid 2.5px transparent;
+  padding-bottom: 10px;
+}
+.sinscrire {
+  
+  margin-top: 5px;
+}
+
+
+  
+  .search h1 {
+    font-size: 27px;
+    margin-top: 40px;
+    margin-right: 10%;
+    }
+    .search p {
+    margin-top: 10px;
+    font-size: 22px;
+    margin-right: 10px;
+    }  
+    main {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      width: 100%;
+      margin: 12px;
+    }
+    .container h2,
+  .popular h2 {
+    margin: 12px;
+    font-size: 20px;
+    margin-top: 7%;
+  }
+  .popular p {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .principal p {
+    font-size: 3%;
+  }
+  .charticon {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .principal h3,
+  .popular h3 {
+  font-size: 3.7vw;
+}
+figcaption {
+  font-size: 3vmax;
+  margin-top: 2.5vmax;
+}
+
+.image_popular {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  width: 140px;
+  height: 120px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  float: left;
+  padding-right: 10px;
+  margin-right: 5px;
+}
+.box-populars {
+  display: inline-block;
+  padding: 1%;
+  width: 90%;
+  height: 80%;
+  margin-bottom: 30px;
+  margin-top: 12px;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 4px 2px 20px  rgb(201, 201, 201);
+  box-shadow: 4px 2px 20px rgb(201, 201, 201);
+}
+.popular {
+  background-color: #f2f2f2;
+  border-radius: 0;
+  width: 95%;
+  margin-top: 2.1em;
+  padding-bottom: 20px;
+  position: relative;
+}
+}
