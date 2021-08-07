@@ -525,15 +525,7 @@ footer ul li {
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
   }
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-  }
-.navigationmobile {
+  .navigationmobile {
   width: 95%;
   position: absolute;
   -webkit-box-orient: vertical;
