@@ -515,18 +515,12 @@ footer ul li {
 }
 
 @media screen and (max-width: 450px) {
-  * {
+* {
     margin: 0;
-  }
-  body {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-    max-width: 100%;
-    -webkit-overflow-x: hidden;
-    overflow-x: hidden;
-  }
+} 
+
   .navigationmobile {
-  width: 95%;
+  width: 100%;
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
@@ -571,11 +565,11 @@ nav ul li:hover {
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
-      width: 95%;
+      width: 100%;
       margin: 12px;
     }
     .container h2,
-  .popular h2 {
+    .popular h2 {
     margin: 12px;
     font-size: 20px;
     margin-top: 7%;
@@ -585,8 +579,9 @@ nav ul li:hover {
     margin-bottom: 0;
   }
   .charticon {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
+    
   }
   .principal h3,
   .popular h3 {
@@ -628,11 +623,11 @@ figcaption {
 .container {
   background-color: white;
   margin-top: 10px;
-  width: 95%;
+  width: 100%;
 }
 .box-lodging {
   width: 100%;
-  height: 250px;
+  height: 230px;
 }
 .image_lodging{
   width: 100%;
@@ -646,7 +641,7 @@ figcaption {
   margin: 0;
 }
 #Activites h2 {
-  font-size: 5vmax;
+  font-size: 20px;
   margin-left: 20px;
   margin-bottom: 30px;
 }
