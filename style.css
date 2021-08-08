@@ -515,10 +515,15 @@ footer ul li {
 }
 
 @media screen and (max-width: 450px) {
-* {
+  * {
     margin: 0;
-} 
-
+  } 
+  body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   .navigationmobile {
   width: 100%;
   position: absolute;
@@ -534,7 +539,7 @@ nav ul {
 }
 nav ul li {
   border-bottom: solid 2.5px #f2f2f2;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 .menu-item {
   text-align: center;
@@ -549,18 +554,57 @@ nav ul li:hover {
 }
 .sinscrire {
   margin-top: 10%;
+  margin-right: 20%;
 }
 .search h1 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 15%;
-    margin-right: 20%;
+    margin-right: 18%;
     }
     .search p {
     margin-top: 10px;
     font-size: 18px;
     margin-right: 10px;
-    }  
-    main {
+    } 
+    .search {
+      width: 100%;
+      margin: 20px 6px 20px 6px;
+    }
+    .searchfield {
+      width: 60%;
+    }
+    .iconesearch{
+    width: 60px; 
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    color: white;
+    background-color: #0065fc;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .searchbutton {
+    display: none;
+  }
+  
+  .filters {
+    margin-bottom: 0;
+    display: list-item ;
+  } 
+  filter p {
+    margin: 0;
+    font-size: 20px;
+  }
+  .filterstitle {
+    font-size: 1.4em;
+    float: none;
+    margin-right: 30px;
+    margin-left: auto;
+    color: black
+  }
+  main {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -659,7 +703,7 @@ figcaption {
   width: 100%;
 }
 .boxactivites_1 {
-  width: 85%;
+  width: 90%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
