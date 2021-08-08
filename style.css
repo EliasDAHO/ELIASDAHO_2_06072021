@@ -515,13 +515,16 @@ footer ul li {
 }
 
 @media screen and (max-width: 450px) {
-  * {
-    margin: 0;
-  } 
+  
   body {
     font-family: "Raleway", sans-serif;
     margin: 0;
     max-width: 100%;
+    overflow-x: hidden;
+  }
+  html {
+    width: 100%;
+    -webkit-overflow-x: hidden;
     overflow-x: hidden;
   }
   .navigationmobile {
@@ -539,13 +542,14 @@ nav ul {
 }
 nav ul li {
   border-bottom: solid 2.5px #f2f2f2;
-  padding-bottom: 10px;
+  
 }
 .menu-item {
   text-align: center;
   width: 100%;
   padding-bottom: 10px;
   padding-top: 70px;
+  margin: 0;
 }
 nav ul li:hover {
   border-bottom: solid 2.5px #0065fc;
@@ -555,6 +559,8 @@ nav ul li:hover {
 .sinscrire {
   margin-top: 10%;
   margin-right: 20%;
+  margin: 0;
+  padding: 0;
 }
 .search h1 {
     font-size: 25px;
@@ -588,29 +594,34 @@ nav ul li:hover {
   .searchbutton {
     display: none;
   }
-  
+  .filter {
+    margin-left: 5px;
+    }
   .filters {
-    margin-bottom: 0;
-    display: list-item ;
-  } 
-  filter p {
-    margin: 0;
-    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
   }
   .filterstitle {
-    font-size: 1.4em;
-    float: none;
-    margin-right: 30px;
-    margin-left: auto;
-    color: black
-  }
+    font-size: 20px;
+    
+    width: 30%;
+    margin: 0.9%;
+    }
+  
+   
+  
   main {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
       width: 100%;
-      margin: 12px;
+      margin: 0;
     }
     .container h2,
     .popular h2 {
@@ -713,7 +724,7 @@ figcaption {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 85%;
+  width: 90%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
