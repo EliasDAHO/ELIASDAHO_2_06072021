@@ -520,7 +520,9 @@ footer ul li {
     font-family: "Raleway", sans-serif;
     margin: 0;
     max-width: 100%;
+    -webkit-overflow-x: hidden;
     overflow-x: hidden;
+    padding: 0;
   }
   html {
     width: 100%;
@@ -528,12 +530,13 @@ footer ul li {
     overflow-x: hidden;
   }
   .navigationmobile {
-  width: 100%;
+  width: 50%;
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
   -ms-flex-direction: column-reverse;
   flex-direction: column-reverse;
+  padding: 0;
 }
 nav ul {
   width: 100%;
@@ -559,8 +562,7 @@ nav ul li:hover {
 .sinscrire {
   margin-top: 10%;
   margin-right: 20%;
-  margin: 0;
-  padding: 0;
+  
 }
 .search h1 {
     font-size: 25px;
@@ -608,13 +610,9 @@ nav ul li:hover {
   }
   .filterstitle {
     font-size: 20px;
-    
     width: 30%;
     margin: 0.9%;
     }
-  
-   
-  
   main {
       -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
