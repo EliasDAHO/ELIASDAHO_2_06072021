@@ -561,7 +561,7 @@ nav ul li:hover {
 }
 .sinscrire {
   margin-top: 10%;
-  margin-right: 20%;
+  margin-right: 50%;
   padding: 0;
 }
 .search h1 {
@@ -572,7 +572,7 @@ nav ul li:hover {
     }
     .search p {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 10px;
     margin-left: 2%;
     } 
@@ -611,17 +611,21 @@ nav ul li:hover {
     justify-content: flex-start;
     align-items: baseline;
     align-content: flex-start;
-    
+    position: relative;
   }
   .filterstitle {
     font-size: 20px;
     width: 70%;
     margin: 2%;
     padding: 0;
-    }
-    main {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
+  }
+  .filter p {
+    font-size: 18px;
+    margin-right: 10%;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
       flex-direction: column-reverse;
       width: 100%;
@@ -640,7 +644,6 @@ nav ul li:hover {
   .charticon {
     font-size: 18px;
     margin-bottom: 10px;
-    
   }
   .principal h3,
   .popular h3 {
@@ -683,11 +686,13 @@ figcaption {
 .container {
   background-color: white;
   margin-top: 10px;
-  width: 100%;
+  width: 90%;
+  
 }
 .box-lodging {
-  width: 100%;
+  width: 90%;
   height: 230px;
+  margin-left: 9%;
 }
 .image_lodging{
   width: 100%;
@@ -697,7 +702,7 @@ font-size: 14px;
 }
 .more-results {
   font-size: 20px;
-  margin-left: 20px;
+  margin-left: 9%;
 }
 #Activites {
   width: 100%;
