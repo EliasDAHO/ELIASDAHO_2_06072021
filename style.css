@@ -544,37 +544,40 @@ footer ul li {
     margin: 17px;
     font-size: 20px;
     margin-top: 7%;
+    margin-left: 5%;
   }
   .popular p {
     font-size: 15px;
     margin-bottom: 0;
   }
   .charticon {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-right: 20px;
   }
   .principal h3,
   .popular h3 {
-  font-size: 15px;}
-.box-populars {
-  display: inline-block;
-  padding: 1%;
-  width: 90%;
-  height: 80%;
-  margin-bottom: 30px;
-  margin-top: 12px;
-  background-color: white;
-  border-radius: 20px;
+  font-size: 14px;
 }
 .popular {
   background-color: #f2f2f2;
-  border-radius: 0;
+  border-radius: 25px;
   width: 90%;
   margin-top: 2.1em;
   padding-bottom: 20px;
   position: relative;
-  margin: 5%;
+  }
+.box-populars {
+  display: inline-block;
+  padding: 0%;
+  width: 90%;
+  height: 80%;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 20px;
 }
+
 .image_popular {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -588,27 +591,57 @@ footer ul li {
 }
 .container {
   background-color: #f2f2f2;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 90%;
   }
-
 .grey-star {
 font-size: 14px;
 }
 .more-results {
   font-size: 20px;
-  margin-left: 9%;
 }
-#Activites {
-  width: 100%;
+.sectionactivites {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: auto;
   margin: 0;
+  margin-bottom: 25px;
+  width: 100%;
+}.boxactivites_1 {
+  width: 90%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
-#Activites h2 {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 30px;
+.boxactivites_2 {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 90%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-
+.boxactivites_a,
+.boxactivites_b,
+.boxactivites_c {
+  width: 100%;
+  height: 190px;
+  margin-bottom: 25px;
+}.imageactivites_a,
+.imageactivites_b,
+.imageactivites_c {
+  height: 150px;
+}figcaption {
+  font-size: 15px;
+  margin-top: 0.2%;
+  }
 footer {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -800,8 +833,7 @@ figcaption {
   background-color: white;
   margin-top: 10px;
   width: 90%;
-  
-}
+  }
 .box-lodging {
   width: 90%;
   height: 230px;
@@ -892,4 +924,3 @@ footer ul li {
   margin-bottom: 10px;
 }
 
-}
