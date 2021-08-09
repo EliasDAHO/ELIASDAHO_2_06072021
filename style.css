@@ -522,7 +522,7 @@ footer ul li {
     max-width: 100%;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
-    padding: 0;
+    padding: 1em;
   }
   html {
     width: 100%;
