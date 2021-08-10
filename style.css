@@ -702,7 +702,7 @@ nav ul li {
 }
 .menu-item {
 text-align: center;
-width: 78%;
+width: 100%;
 padding-bottom: 10px;
 padding-top: 70px;
 margin-right: 0;
@@ -735,12 +735,9 @@ padding-bottom: 10px;
     width: auto;
     overflow-x: hidden;
     height: auto;
-    
-    
   }
-
   .navigationmobile {
-  width: 40%;
+  width: 50%;
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
@@ -748,7 +745,7 @@ padding-bottom: 10px;
   flex-direction: column-reverse;
   } 
   nav ul {
-  width: 73%;
+  width: 100%;
   padding: 0;
   margin-right: 25%;
   }
@@ -768,6 +765,10 @@ padding-bottom: 10px;
   border-bottom: solid 2.5px #0065fc;
   border-top: solid 2.5px transparent;
   padding-bottom: 10px;
+  }
+  .Sinscrire {
+    position: relative;
+   
   }
 
    .search h1 {
