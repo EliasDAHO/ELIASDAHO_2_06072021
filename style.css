@@ -513,6 +513,9 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
+@media  screen and (max-width: 1024px) {
+  
+}
 @media screen and (max-width: 980px) {
   
 }
@@ -670,7 +673,11 @@ footer ul li {
   margin-bottom: 10px;
 }  
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 550px) {
+  
+  }
+
+@media screen and (max-width: 550px) {
   body {
     font-family: "Raleway", sans-serif;
     margin: 0;
