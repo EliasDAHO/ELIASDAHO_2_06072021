@@ -58,9 +58,12 @@ html {
     color: #0065fc;
   }
   .sinscrire {
-  font-weight: bolder;
-  font-size: 16px;
-  color: #0065fc;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #0065fc;
+    float: right;
+    margin-right: 5vw;
+    padding-top: 38px;
 }
   .search {
     margin-left: 3.3vw;
@@ -760,36 +763,43 @@ footer ul li {
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
   }
+  .logo {
+    margin-top: 25px;
+    position: absolute;
+  }
+
   .navigationmobile {
-  width: 50%;
-  position: absolute;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
-  } 
+    width: 100vw;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
   nav ul {
-  width: 100%;
-  padding: 0;
-  margin-right: 25%;
+    width: 100%;
+    padding-left: 0;
+    margin-right: 0;
   }
   nav ul li {
     border-bottom: solid 2.5px #f2f2f2;
     padding-bottom: 15px;
   }
-  .menu-item {
-  text-align: justify;
-  width: 90%;
-  padding-bottom: 10px;
-  padding-top: 70px;
-  margin-right: 0;
-  
+  .menuitem {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 25px;
   }
   nav ul li:hover {
-  border-bottom: solid 2.5px #0065fc;
-  border-top: solid 2.5px transparent;
-  padding-bottom: 10px;
+    border-bottom: solid 2.5px #0065fc;
+    border-top: solid 2.5px transparent;
+    padding-bottom: 10px;
   }
+  .sinscrire {
+    margin-right: 25px;
+  }
+  
   .search h1 {
     font-size: 25px;
     margin-top: 15%;
