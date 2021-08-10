@@ -715,16 +715,19 @@ nav ul li {
   border-bottom: solid 2.5px #f2f2f2;
 }
 .menu-item {
-  text-align: justify;
-  width: 80%;
+  text-align: center;
+  width: 70%;
   padding-bottom: 10px;
   padding-top: 70px;
-  margin-right: 25%;
+  margin-right: 15%;
 }
 nav ul li:hover {
   border-bottom: solid 2.5px #0065fc;
   border-top: solid 2.5px transparent;
   padding-bottom: 10px;
+}
+.sinscrire{
+  margin-right: 15%;
 }
 .search h1 {
     font-size: 25px;
