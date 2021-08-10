@@ -514,20 +514,47 @@ footer ul li {
   -webkit-text-stroke: 1px black;
 }
 @media  screen and (max-width: 1024px) {
+  h2 {
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  .h3{
+    font-size: 15px;
+  }
+  .charticon {
+    top: 6%;
+    font-size: 19px;
+  }
+  .box-populars {
+    width: 92%;
+  }
+  .box-lodging{
+    width: 30%;
+  }
+  .grey-star {
+    font-size: 14px;
+  }
+  .boxactivites_a {
+    width: 90%;
+  }
+  .boxactivites_b {
+    width: 98%;
+  }
+  .boxactivites_c {
+    width: 100%;
+  }
+  }
+  @media screen and (max-width: 980px) {
   
-}
-@media screen and (max-width: 980px) {
-  .filter {
-    margin-left: 4%;
-    
-    }
+
+
   
       
       
       
    
 }
-@media  screen and (max-width: 750px) {  
+@media  screen and (max-width: 780px) {  
   .filterstitle {
     font-size: 20px;
     margin-left: auto;
@@ -646,7 +673,7 @@ font-size: 14px;
 .boxactivites_b,
 .boxactivites_c {
   width: 100%;
-  height: 190px;
+  height: 180px;
   margin-bottom: 25px;
 }.imageactivites_a,
 .imageactivites_b,
@@ -682,59 +709,61 @@ footer ul li {
 }  
 }
 @media screen and (max-width: 550px) {
-}
-.navigationmobile {
-width: 50%;
-position: absolute;
--webkit-box-orient: vertical;
--webkit-box-direction: reverse;
--ms-flex-direction: column-reverse;
-flex-direction: column-reverse;
-} 
-nav ul {
-width: 100%;
-padding: 0;
-margin-right: 15%;
-}
-nav ul li {
-  border-bottom: solid 2.5px #f2f2f2;
-  padding-bottom: 15px;
-}
-.menu-item {
-text-align: center;
-width: 100%;
-padding-bottom: 10px;
-padding-top: 70px;
-margin-right: 0;
-
-}
-nav ul li:hover {
-border-bottom: solid 2.5px #0065fc;
-border-top: solid 2.5px transparent;
-padding-bottom: 10px;
-}
-.search h1 {
-  font-size: 30px;
-  margin-top: 15%;
-  margin-right: 18%;
-  margin-left: 2%;
-  }
-  .search p {
-  margin-top: 10px;
-  font-size: 20px;
-  margin-right: 10px;
-  margin-left: 2%;
-  } 
-
-
-@media screen and (max-width: 450px) {
   * {
     margin: 0;
   }
-  body {
-    width: auto;
+  html {
+    -webkit-overflow-x: hidden;
     overflow-x: hidden;
-    height: auto;
+  }
+  body {
+    margin: 0;
+    -webkit-overflow-x: hidden;
+    overflow-x: hidden;
+  }
+  .logo {
+    margin-top: 20px;
+    position: relative;
+  }
+   nav ul {
+    width: 90%;
+    padding-left: 0;
+    margin-right: 5%;
+  }
+ 
+  .menuitem {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 25px;
+  }
+  nav ul li:hover {
+    border-bottom: solid 2.5px #0065fc;
+    border-top: solid 2.5px transparent;
+    padding-bottom: 10px;
+  }
+  .h1{
+    font-size: 25px;
+  }
+  
+}
+
+
+
+@media screen and (max-width: 425px) {
+  * {
+    margin: 0;
+  }
+  html {
+    -webkit-overflow-x: hidden;
+    overflow-x: hidden;
+  }
+  body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    max-width: 100%;
+    -webkit-overflow-x: hidden;
+    overflow-x: hidden;
   }
   .navigationmobile {
   width: 50%;
@@ -755,7 +784,7 @@ padding-bottom: 10px;
   }
   .menu-item {
   text-align: justify;
-  width: 100%;
+  width: 90%;
   padding-bottom: 10px;
   padding-top: 70px;
   margin-right: 0;
@@ -766,12 +795,7 @@ padding-bottom: 10px;
   border-top: solid 2.5px transparent;
   padding-bottom: 10px;
   }
-  .Sinscrire {
-    position: relative;
-   
-  }
-
-   .search h1 {
+  .search h1 {
     font-size: 25px;
     margin-top: 15%;
     margin-right: 18%;
@@ -779,7 +803,7 @@ padding-bottom: 10px;
     }
     .search p {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 10px;
     margin-left: 2%;
     } 
