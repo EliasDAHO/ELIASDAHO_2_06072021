@@ -62,8 +62,8 @@ html {
     font-size: 16px;
     color: #0065fc;
     float: right;
-    margin-right: 5vw;
-    padding-top: 38px;
+    margin-right: 30px;
+    padding-top: 37px;
 }
   .search {
     margin-left: 3.3vw;
@@ -797,7 +797,7 @@ footer ul li {
     padding-bottom: 10px;
   }
   .sinscrire {
-    margin-right: 25px;
+    margin-right: 70px;
   }
   
   .search h1 {
