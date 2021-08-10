@@ -736,12 +736,11 @@ padding-bottom: 10px;
     overflow-x: hidden;
     height: auto;
     margin: 0px;
-    max-width: 290%;
     padding-left: 5%;
   }
 
   .navigationmobile {
-  width: 40%;
+  width: 30%;
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
