@@ -548,7 +548,9 @@ footer ul li {
   }
   }
   @media screen and (max-width: 980px) {
-  
+    .icon-text-filters{
+      font-size: 15px;
+    }
 
 
   
@@ -728,26 +730,35 @@ footer ul li {
     margin-top: 20px;
     position: relative;
   }
-   nav ul {
+  nav ul {
     width: 90%;
     padding-left: 0;
-    margin-right: 5%;
+    margin-right: 0;
   }
- 
-  
   nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
     border-top: solid 2.5px transparent;
     padding-bottom: 10px;
   }
-  .h1{
-    font-size: 25px;
+  .iconesearch{
+    width: 60px; 
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    color: white;
+    background-color: #0065fc;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
   }
-  
+  .searchbutton {
+    display: none;
+  }
+  .box-lodging{
+    
+  }
 }
-
-
-
 @media screen and (max-width: 450px) {
   * {
     margin: 0;
@@ -782,10 +793,10 @@ footer ul li {
     margin-right: 0;
   }
   nav ul li {
-    border-bottom: solid 2.5px #f2f2f2;
+    border-bottom: solid 2.5px  #f2f2f2;
     padding-bottom: 15px;
   }
-  .menuitem {
+  .menui-tem {
     text-align: center;
     width: 100%;
     padding-bottom: 15px;
@@ -797,9 +808,9 @@ footer ul li {
     padding-bottom: 10px;
   }
   .sinscrire {
-    margin-right: 65px;
+    margin-right: 50px;
+    font-size: 17px;
   }
-  
   .search h1 {
     font-size: 25px;
     margin-top: 15%;
