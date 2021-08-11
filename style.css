@@ -755,9 +755,7 @@ footer ul li {
   .searchbutton {
     display: none;
   }
-  .box-lodging{
-    
-  }
+  
 }
 @media screen and (max-width: 450px) {
   * {
@@ -808,7 +806,7 @@ footer ul li {
     padding-bottom: 10px;
   }
   .sinscrire {
-    margin-right: 50px;
+    margin-right: 15px;
     font-size: 17px;
   }
   .search h1 {
