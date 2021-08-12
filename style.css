@@ -14,6 +14,7 @@ html {
     overflow-x: hidden;
   }
   header {
+    max-width: 1440px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -30,6 +31,13 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .selected a{
+    color: #0097fc;
+  }
+  .menu-item.selected{
+    border-top: 2.5px solid #0097fc;
+    padding-top: 36px; 
   }
   nav {
     display: -webkit-box;
@@ -136,6 +144,7 @@ html {
     display: none;
   }
   .filter {
+  max-width: 1440px;
   margin-left: 2.9em;
   }
   .filters {
@@ -163,9 +172,7 @@ html {
 } 
 .icon-text-filters :hover {
   background-color: #deebff;
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg);
-} 
+  } 
 .filter-icon-economic {
   background-color: #DEEBFF;
   color: blue;
@@ -227,6 +234,7 @@ html {
   font-size: 1em;
 }
 main {
+  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,6 +255,7 @@ main {
   margin-bottom: 20px;
 }
 .container {
+  max-width: 1440px;
   background-color: #f2f2f2;
   border-radius: 25px;
   margin-top: 2.2em;
@@ -400,14 +409,14 @@ figcaption {
   
 }
 .sectionactivites {
-  display: -webkit-box;
+ display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 2.8em 4.5em;
-  height: 31.5vw;
+  height: 31.5%;
 }
 .boxactivites_1 {
   display: -webkit-box;
@@ -552,7 +561,7 @@ footer ul li {
       width: 31%;
     }
 }
-@media  screen and (max-width: 780px) {  
+@media  screen and (max-width: 750px) {  
   .filterstitle {
     font-size: 20px;
     margin-left: auto;
@@ -901,8 +910,8 @@ footer ul li {
   font-size: 15px;
 }
 figcaption {
-  font-size: 3vmax;
-  margin-top: 2.5vmax;
+  font-size: 17px;
+  margin-top: 2%;
 }
 .box-populars {
   display: inline-block;
