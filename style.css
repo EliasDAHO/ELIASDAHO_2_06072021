@@ -600,8 +600,72 @@ footer ul li {
     margin-right: 15px;
     font-size: 17px;
   }
-}
-@media screen and (max-width: 630px) {
+  .iconesearch{
+    width: 60px; 
+    border: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: initial;
+    color: white;
+    background-color: #0065fc;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .searchbutton {
+    display: none;
+  }
+  .filters { 
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+  }
+  .filter{
+    margin-left: 5%;
+  } 
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      width: 100%;
+      margin: 0;
+    }
+    
+    
+    
+    .sectionactivites {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      height: auto;
+      margin: 0;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 10px;
+  }
+  }
+
+	
+    
+  
+  
+
+@media screen and (max-width: 640px) {
   .logo {
     margin-top: 25px;
     position: absolute;
@@ -660,8 +724,18 @@ footer ul li {
     margin-right: 15px;
     font-size: 17px;
   }
-  .searchfield {
-    width: 50%;
+  
+  .ic.search h1 {
+    font-size: 25px;
+    margin-top: 5%;
+    margin-right: 18%;
+    margin-left: 2%;
+    }
+    .search p {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 2%;
   }
   .iconesearch{
   width: 60px; 
@@ -844,21 +918,8 @@ footer ul li {
 
 
 }
-@media screen and (max-width: 450px) {
-  * {
-    margin: 0;
-  }
-  html {
-    -webkit-overflow-x: hidden;
-    overflow-x: hidden;
-  }
-  body {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-    max-width: 100%;
-    -webkit-overflow-x: hidden;
-    overflow-x: hidden;
-  }
+@media screen and (max-width: 508px) {
+  
   .logo {
     margin-top: 25px;
     position: absolute;
@@ -912,21 +973,11 @@ footer ul li {
     margin-right: 15px;
     font-size: 17px;
   }
-  .search h1 {
-    font-size: 25px;
-    margin-top: 15%;
-    margin-right: 18%;
-    margin-left: 2%;
-    }
-    .search p {
-    margin-top: 10px;
-    font-size: 18px;
-    margin-right: 10px;
-    margin-left: 2%;
-    } 
+  
+
     .search {
       width: 100%;
-      margin-top: 20%;
+      margin-top: 5%;
       margin-left:5%;
     }
     .searchfield {
