@@ -546,6 +546,14 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
+@media screen and (max-width: 1300px) {
+  .box-lodging {
+    width: 32%;
+  }
+  .box-populars{ 
+  width: 80%;  
+  }
+}
 
   @media screen and (max-width: 451px) {
     * {
