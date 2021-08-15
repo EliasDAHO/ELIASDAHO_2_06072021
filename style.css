@@ -559,15 +559,12 @@ footer ul li {
   }
   html {
       width: 100%;
-      -webkit-overflow-x: hidden;
-      overflow-x: hidden;
     }
     body {
       font-family: "Raleway", sans-serif;
       margin: 0;
       max-width: 100%;
-      -webkit-overflow-x: hidden;
-      overflow-x: hidden;
+    
     }
   .logo {
     margin-top: 25px;
