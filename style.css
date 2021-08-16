@@ -726,6 +726,18 @@ footer ul li {
             }
         }
     @media screen and (max-width: 551px) {
+      * {
+        margin: 0;
+      }
+      html {
+        -webkit-overflow-x: hidden;
+        overflow-x: hidden;
+      }
+      body {
+        margin: 0;
+        -webkit-overflow-x: hidden;
+        overflow-x: hidden;
+      }
     
   .logo {
     margin-top: 25px;
