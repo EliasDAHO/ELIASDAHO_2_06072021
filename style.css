@@ -545,9 +545,11 @@ footer ul li {
   -webkit-text-stroke: 1px black;
 }
 @media screen and (max-width: 1174px) {
-  .iconesearch{    
+ 
+  .iconesearch {    
     display: none;
   }
+  
   .container {
     width: auto;
   }
@@ -654,24 +656,10 @@ h2 {
     align-items: baseline;
     align-content: flex-start;
     position: relative;
-    
-  }
-  .iconesearch{
-    width: 60px; 
-    border: none;
-    font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: initial;
-    color: white;
-    background-color: #0065fc;
-    display: inline-block;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  .searchbutton {
-    display: none;
-  }
-  main {
+    }
+  
+  
+    main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
