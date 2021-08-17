@@ -274,6 +274,7 @@ main {
   border-radius: 25px;
   margin-top: 2.2em;
   width: 67%;
+  
 }
 .box-lodging {
   width: 25%;
@@ -543,12 +544,16 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
-@media screen and (max-width: 1241px) {
+@media screen and (max-width: 1174px) {
   .iconesearch{    
     display: none;
   }
+  .container {
+    width: auto;
+  }
   .box-lodging{
-    width: 32%;
+    width: 50%;
+    height: 250px;
   }
 .boxactivites_a,
 .boxactivites_b,
@@ -556,21 +561,12 @@ footer ul li {
 width: 90%;
 padding: 0;
 }
-.box-populars{
-  width:   80%;
-  margin-top: 50px;
-}
 h2 {
   font-size: 20px;
 }
-.charticon{
-  font-size: 15px;
-  margin-top: 15px;
-}
-
-
-
-
+.image_lodging{
+  width: 100%;
+  }
 
 @media screen and (max-width: 770px){
   * {
@@ -646,7 +642,7 @@ h2 {
   }
   .filter {
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 1%;
     
     }
   .filters {
@@ -703,7 +699,7 @@ h2 {
   .popular {
         background-color: #f2f2f2;
         border-radius: 0;
-        width: 100%;
+        width: 85%;
         margin-top: 2.1em;
         padding-bottom: 20px;
         position: relative;
@@ -854,7 +850,7 @@ h2 {
     font-size: 17px;
   }
   .search h1 {
-    font-size: 20px;
+    font-size: 19px;
     margin-right: 5%;
   }
   .search {
