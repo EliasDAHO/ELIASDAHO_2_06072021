@@ -652,6 +652,18 @@ main {
           font-size: 15px;
         }       
         }
+ @media screen  and (max-width: 900px) { 
+
+        footer {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 10px;
+        margin-right: 5%;
+         margin-left: 5%;
+         }
+        }
  @media screen and (max-width: 771px){
   * {
     margin: 0;
@@ -747,15 +759,7 @@ overflow-x: hidden;
           figcaption{
             font-size: 15px;
           }       
-          footer {
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            padding-bottom: 10px;
-            margin-right: 5%;
-            margin-left: 5%;
-            }
+          
            }
           
   @media screen and (max-width: 551px) {
