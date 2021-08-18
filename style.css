@@ -5,15 +5,14 @@
     width: 100%;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
-    
      }
   body {
     font-family: "Raleway", sans-serif;
-    margin: 0;
+    margin: 0px;
     max-width: auto;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
-    max-width: auto;
+    max-width: 100%;
   }
     
    header {
@@ -23,7 +22,6 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 1440px;
    }
   .logo {
     margin: 1.7vw 3.5vw 2vw 3.2vw;
@@ -249,7 +247,6 @@ main {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 2.9em;
-  max-width: 1440px;
 }
 .principal {
   display: -webkit-box;
@@ -341,7 +338,6 @@ a {
   margin-top: 2.1em;
   padding-bottom: 20px;
   position: relative;
-  
   }
 .charticon {
   position: absolute;
@@ -391,7 +387,6 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  
  }
 figure {
   background-color: white;
@@ -415,7 +410,7 @@ figcaption {
 }
 #Activities h2 {
   margin: 2.5em 2em 1em 2.1em;
-}
+  }
 .sectionactivites {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,8 +419,7 @@ figcaption {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 2.8em 4.5em;
-  height: 30em;
-  max-width: 1440px;
+  height: 31.5vw;
 }
 .boxactivites_1 {
   display: -webkit-box;
@@ -500,7 +494,6 @@ footer {
   background-color: #f2f2f2;
   padding-bottom: 30px;
   padding-top: 40px;
-  max-width: 1440px;
 }
 footer h4 {
   font-size: 1.1em;
@@ -532,6 +525,7 @@ footer ul li {
 .assistance ul li:hover {
   -webkit-text-stroke: 1px black;
 }
+
 
 @media screen and (max-width: 1250px){
  .filterstitle {
@@ -670,7 +664,7 @@ main {
   
   .filter {
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 1%;
     
     }
   .filters {
@@ -755,6 +749,11 @@ main {
         }
   .image_lodging{
           width: 100%;
+          }
+          
+          .popular-stars{
+           font-size: 13px;
+           margin-top: 15%;
           }
           #Activities {
             width: 100%;
@@ -858,7 +857,11 @@ main {
     border-bottom: solid 2.5px #0065fc;
     border-top: solid 2.5px transparent;
     padding-bottom: 15px;
-   }
+  }
+  .selected a{
+    color: #0097fc;
+    margin-left: 10%;
+  }
   .menu-item.selected{
     color: #0065fc;
     border-top: none;
@@ -869,11 +872,10 @@ main {
     margin-right: 15px;
     font-size: 17px;
   }
-  
   .search h1 {
-   font-size: 23px;
-   margin-right: 12%;
- }
+    font-size: 22px;
+    margin-right: 12%;
+  }
   .search {
       width: 100%;
       margin-top: 5%;
@@ -940,9 +942,9 @@ main {
     margin-bottom: 0;
   }
   .charticon {
-    font-size: 20px;
-    margin-bottom: 15px;
-    margin-top: 1%;
+    font-size: 18px;
+   margin-top: 4%;
+    
   }
   figcaption {
   font-size: 15px;
@@ -951,8 +953,8 @@ main {
   .box-populars {
   display: inline-block;
   padding: 1%;
-  width: 90%;
-  height: 82%;
+  width: 92%;
+  height: 79%;
   margin-bottom: 30px;
   margin-top: 12px;
   background-color: white;
@@ -986,7 +988,7 @@ main {
   }
   .box-lodging {
   width: 90%;
-  height: 230px;
+  height: 220px;
   margin-left: 9%;
   }
   .image_lodging{
@@ -999,14 +1001,21 @@ main {
   }
   .popular-stars{
    font-size: 13px;
-   margin-top: 21%;
+   margin-top: 19%;
   }
   .more-results {
   font-size: 20px;
   margin-left: 9%;
   }
+  h3 {
+    font-size: 14px;
+  }
+  p{
+    font-size: 11px;
+  }
+
   #Activites {
-   width: 100%;
+  width: 100%;
   margin: 0;
   }
   #Activites h2 {
