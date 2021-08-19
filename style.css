@@ -5,11 +5,12 @@
     width: 100%;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
+    display: flex;
      }
   body {
     font-family: "Raleway", sans-serif;
-    margin: 0px;
-    max-width: auto;
+    margin: auto;
+    
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
     max-width: 1440px;
@@ -172,7 +173,7 @@
     font-size: 1em;
     } 
  .icon-text-filters :hover {
- font-size: 1.2em;
+  
     -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
@@ -265,6 +266,7 @@ main {
   border-radius: 25px;
   margin-top: 2.2em;
   width: 67%;
+  max-width: 1440px;
   }
 .box-lodging {
   width: 25%;
@@ -420,7 +422,7 @@ figcaption {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 2.8em 4.5em;
-  height: 31.5vw;
+  height: 480px;
 }
 .boxactivites_1 {
   display: -webkit-box;
