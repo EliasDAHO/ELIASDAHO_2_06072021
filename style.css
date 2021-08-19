@@ -72,7 +72,7 @@
     color: #0065fc;
     float: right;
     margin-right: 28px;
-    padding-top: 37px;
+    padding-top: 36px;
 }
   .search {
     margin-left: 35px;
@@ -556,6 +556,7 @@ main {
   -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
+    margin: auto;
     }
     .asidepopulaires {
       display: -webkit-box;
@@ -565,6 +566,7 @@ main {
       -webkit-box-direction: normal;
       -ms-flex-direction: column;
       flex-direction: column;
+      margin: auto;
     }
    .box-populars {
       display: inline-block;
@@ -612,7 +614,7 @@ main {
         }
        #Activities {
           width: 100%;
-          margin: 0;
+          margin: auto;
         }
         .sectionactivites {
           -ms-flex-wrap: wrap;
@@ -673,6 +675,7 @@ main {
     html {
       -webkit-overflow-x: hidden;
       overflow-x: hidden;
+    
        }
     body {
     -webkit-overflow-x: hidden;
@@ -702,6 +705,7 @@ overflow-x: hidden;
     align-content: flex-start;
     position: relative;
     }
+   
   .iconesearch{
     width: 60px; 
     border: none;
@@ -711,12 +715,15 @@ overflow-x: hidden;
     color: white;
     background-color: #0065fc;
     display: inline-block;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     cursor: pointer;
+    
   }
   .searchbutton {
     display: none;
   }
+  
  
           
   
