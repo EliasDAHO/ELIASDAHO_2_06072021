@@ -533,12 +533,12 @@ footer ul li {
 @media screen and (max-width: 1250px){
  .filterstitle {
   margin-top: 0.5%;
-   width: 70%;
-    margin: 2%;
-    padding: 0;
+   width: 100%;
+  margin: 2%;
+  padding: 0;
   }
   .filter {
-  margin-left: 5%;
+  margin-left: 2%;
   margin-top: 1%;
   }
 .filters {
@@ -567,10 +567,12 @@ main {
       -ms-flex-direction: column;
       flex-direction: column;
       margin: auto;
+      
+      
     }
    .box-populars {
       display: inline-block;
-      width: 85%;
+      width: 90%;
       height: 80%;
       margin-bottom: 30px;
       margin-top: 12px;
@@ -582,7 +584,7 @@ main {
       border-radius: 0;
       width: 85%;
       margin-top: 2.1em;
-      padding-bottom: 20px;
+      
       position: relative;
       margin: 5%;
       }
@@ -600,8 +602,9 @@ main {
      .container {
       background-color:white;
       margin-top: 10px;
-      width: 90%;
-      margin-left: 10px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
       }   
       .box-lodging {
         width: 44%;
