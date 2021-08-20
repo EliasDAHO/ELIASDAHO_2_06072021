@@ -37,7 +37,7 @@
   .selected a{
     color: #0097fc;
   }
-  .menu-item.selected{
+ .menu-item.selected{
     border-top: 2.5px solid #0097fc;
     padding-top: 36px; 
   }
@@ -711,16 +711,19 @@ main {
     padding-bottom: 15px;
     padding-top: 25px;
     border-bottom: solid 2.5px #f2f2f2;
-    margin-left: 10%;
+    margin-left: 50%;
   }
-  nav ul li:hover {
+    .menu-item a{
+      margin-left: 30%;
+    }
+    nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
     border-top: solid 2.5px transparent;
     padding-bottom: 15px;
   }
   .selected a{
     color: #0097fc;
-    margin-left: 10%;
+    margin-left: 30%;
   }
   .menu-item.selected{
     color: #0065fc;
@@ -891,18 +894,11 @@ main {
       font-size: 20px;
       width: 100%;
       margin: 2%;
-      
     }
     .filter p {
       font-size: 18px;
-      margin-right: auto;
-    }  
-    .filter-description {
-      font-size: 15px;
-      
-    }
+    } 
     .icon-text-filters{
       margin-left: auto;
-      
-    }
-}
+     }
+  }
