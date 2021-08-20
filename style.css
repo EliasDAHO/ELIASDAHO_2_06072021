@@ -899,5 +899,10 @@ main {
     }  
     .filter-description {
       font-size: 15px;
+      
+    }
+    .icon-text-filters{
+      margin-left: auto;
+      
     }
 }
