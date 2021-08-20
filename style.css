@@ -665,8 +665,8 @@ main {
  @media screen  and (max-width: 900px) { 
 
         footer {
-        -webkit-box-orient: horizontal;
-        -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: horizontal;
         -ms-flex-direction: column;
         flex-direction: column;
         padding-bottom: 10px;
