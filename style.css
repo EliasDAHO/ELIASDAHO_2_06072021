@@ -685,7 +685,7 @@ main {
     -webkit-overflow-x: hidden;
      overflow-x: hidden;
     }
-  }
+  
   .navigationmobile {
     width: 100%;
     position: relative;
@@ -807,16 +807,8 @@ main {
     margin-left: 5%;
     margin-top: 5%;
    }
-  .filters {
-    width:100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    align-content: flex-start;
-    position: relative;
-  }
+  
+  
   .filterstitle {
     font-size: 20px;
     width: 70%;
@@ -894,5 +886,14 @@ main {
   }
 }
 @media screen and (max-width: 451px){
-
+  .filters {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    position: relative;
+    }
 }
