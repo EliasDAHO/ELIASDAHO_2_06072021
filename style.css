@@ -776,6 +776,7 @@ main {
     background-color: #0065fc;
     display: inline-block;
     border-radius: 10px;
+    
     cursor: pointer;
   }
   .searchbutton {
@@ -797,32 +798,7 @@ main {
      -webkit-overflow-x: hidden;
      overflow-x: hidden;
       }
-      .filters {
-        width:100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: baseline;
-        align-content: flex-start;
-        position: relative;
-        }
-        .filter {
-          margin-left: 5%;
-          margin-top: 5%;
-         }
-        
-        
-        .filterstitle {
-          font-size: 20px;
-          width: 70%;
-          margin: 2%;
-          padding: 0;
-        }
-        .filter p {
-          font-size: 18px;
-          margin-right: 10%;
-        }  
+     
  
  
   .search h1 {
@@ -897,5 +873,31 @@ main {
   }
 }
 @media screen and (max-width: 451px){
-  
+  .filters {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    position: relative;
+    }
+    .filter {
+      margin-left: 5%;
+      margin-top: 5%;
+     }
+    .filterstitle {
+      font-size: 20px;
+      width: 100%;
+      margin: 2%;
+      
+    }
+    .filter p {
+      font-size: 18px;
+      margin-right: auto;
+    }  
+    .filter-description {
+      font-size: 15px;
+    }
 }
