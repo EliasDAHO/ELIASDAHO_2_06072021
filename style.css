@@ -915,5 +915,25 @@ main {
 .iconesearch{
   width: 50px;
 }
+.search h1{
+ font-size: 20px;
+}
+.filters {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  align-content: flex-start;
+  position: relative;
+  }
+  .filter {
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 11px;
+   }
+ 
+  
 
 }
