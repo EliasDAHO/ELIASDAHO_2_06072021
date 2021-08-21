@@ -711,7 +711,7 @@ main {
     padding-bottom: 15px;
     padding-top: 25px;
     border-bottom: solid 2.5px #f2f2f2;
-    margin-left: 50%;
+    
   }
     .menu-item a{
       margin-left: 30%;
@@ -723,7 +723,7 @@ main {
   }
   .selected a{
     color: #0097fc;
-    margin-left: 20%;
+    margin-left: 10%;
   }
   .menu-item.selected{
     color: #0065fc;
@@ -779,13 +779,17 @@ main {
     background-color: #0065fc;
     display: inline-block;
     border-radius: 10px;
-    
     cursor: pointer;
   }
   .searchbutton {
     display: none;
   }
-  
+  h2{
+    margin-left: 3%;
+  }
+  .charticon{
+    margin-right: 3%;
+  }
   }
           
   @media screen and (max-width: 551px) {
@@ -887,7 +891,7 @@ main {
     position: relative;
     }
     .filter {
-      margin-left: 5%;
+      margin-left: auto;
       margin-top: 5%;
      }
     .filterstitle {
@@ -900,5 +904,5 @@ main {
     } 
     .icon-text-filters{
       margin-left: auto;
-     }
+    }
   }
