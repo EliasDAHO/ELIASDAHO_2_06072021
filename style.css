@@ -926,5 +926,11 @@ main {
             font-size: 11px;
            }
          }   
+         @media screen and (max-width:334px) {
+        .search h1{  
+          font-size: 18px;
+         }
+        }
+        
     
   
