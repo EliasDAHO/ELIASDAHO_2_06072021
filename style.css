@@ -707,14 +707,14 @@ main {
   }
   .menui-tem {
     text-align: center;
-    text-align: center;
+   
     padding-bottom: 15px;
     padding-top: 25px;
     border-bottom: solid 2.5px #f2f2f2;
     
   }
     .menu-item a{
-      margin-left: 20%;
+      margin-left: 25%;
     }
     nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
@@ -723,9 +723,8 @@ main {
   }
   .selected a{
     color: #0097fc;
-    
-    
   }
+  
   .menu-item.selected{
     color: #0065fc;
     border-top: none;
@@ -899,4 +898,22 @@ main {
     .icon-text-filters{
       margin-left: auto;
     }
+    .search h1{
+      font-size: 24px;
+    }
   }
+  @media screen and (max-width: 375px){
+    .selected a{
+      margin-left: 10%;
+    }
+      }
+    
+  @media screen and (max-width: 320px){
+.selected a{
+  margin-left: auto;
+}
+.iconesearch{
+  width: 50px;
+}
+
+}
