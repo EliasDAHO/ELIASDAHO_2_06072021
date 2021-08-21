@@ -912,8 +912,11 @@ main {
      .search p{
        font-size: 15px;
      }
-     .filter {
+     .icon-text-filters {
        font-size: 13px;
+     }
+     filter p{
+       font-size: 8px;
      }
       }
      
