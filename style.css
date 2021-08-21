@@ -702,19 +702,19 @@ main {
   nav ul li {
     border-bottom: solid 2.5px  #f2f2f2;
     padding-bottom: 15px;
-    border-width: 100%;
     width: 100%;
+    
   }
   .menui-tem {
     text-align: center;
-    width: 100%;
+    text-align: center;
     padding-bottom: 15px;
     padding-top: 25px;
     border-bottom: solid 2.5px #f2f2f2;
     
   }
     .menu-item a{
-      margin-left: 30%;
+      margin-left: 20%;
     }
     nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
@@ -723,7 +723,8 @@ main {
   }
   .selected a{
     color: #0097fc;
-    margin-left: 10%;
+    
+    
   }
   .menu-item.selected{
     color: #0065fc;
@@ -821,11 +822,11 @@ main {
       height: 170px;
       }
  
-  #Activites {
+  #Activities {
   width: 100%;
   margin: 0;
   }
-  #Activites h2 {
+  #Activities h2 {
   font-size: 20px;
   margin-left: 20px;
   margin-bottom: 30px;
