@@ -907,21 +907,24 @@ main {
       margin-left: 10%;
     }
       }
+      @media screen and (max-width: 365px){
+        .selected a{
+          margin-left: auto;
+        }
+        .searchfield{
+          width: 50%;
+        }
+        .iconesearch{
+          width: 50px;
+        }
+        .search h1{
+         font-size: 22px;
+        }
+        .filter {
+            margin-left: 4%;
+            margin-top: 5%;
+            font-size: 11px;
+           }
+         }   
     
-  @media screen and (max-width: 320px){
-.selected a{
-  margin-left: auto;
-}
-.iconesearch{
-  width: 50px;
-}
-.search h1{
- font-size: 20px;
-}
-
-  .filter {
-    margin-left: 4%;
-    margin-top: 5%;
-    font-size: 11px;
-   }
- }
+  
