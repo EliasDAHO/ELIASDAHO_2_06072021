@@ -901,12 +901,12 @@ main {
       font-size: 26px;
     }
   }
-  @media screen and (max-width: 365px){
+  @media screen and (max-width: 392px){
     .selected a{
       margin-left: 10%;
     }
     .search h1{  
-      font-size: 20px;
+      font-size: 22px;
      }
      .search p{
        font-size: 15px;
@@ -917,7 +917,10 @@ main {
      filter p{
        font-size: 8px;
      }
-      }@media screen and (max-width: 320px){
+      }@media screen and (max-width: 332px){
+        .search h1{  
+          font-size: 20px;
+        }
         .searchfield{
           font-size: 12px;
         }
