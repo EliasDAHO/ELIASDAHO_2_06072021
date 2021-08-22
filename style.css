@@ -413,7 +413,7 @@ figcaption {
 #Activities h2 {
   margin: 2.5em 2em 1em 2.1em;
   }
-.sectionactivites {
+.section-activites {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,13 +423,13 @@ figcaption {
   margin: 0 2.8em 4.5em;
   height: 480px;
 }
-.boxactivites_1 {
+.box-activites-1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 0;
 }
-.boxactivites_2 {
+.box-activites-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -445,18 +445,18 @@ figcaption {
   align-items: stretch;
   padding: 0;
 }
-.boxactivites_a {
+.box-activites-a {
   width: 19em;
   padding: 0;
   margin: 0;
 }
-.boxactivites_b {
+.box-activites-b {
   width: 16em;
   height: 50%;
   padding: 0;
   margin: 0;
 }
-.boxactivites_c {
+.box-activites-c {
   width: 16em;
   height: 41%;
   padding: 0;
@@ -616,30 +616,30 @@ main {
           width: 100%;
           margin: auto;
         }
-        .sectionactivites {
+        .section-activites {
           -ms-flex-wrap: wrap;
           flex-wrap: wrap;
           height: 100%;
          }
-        .boxactivites_1 {
+        .box-activites-1 {
           width: 34%;
         }
-        .boxactivites_2 {
+        .box-activites-2 {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
           -ms-flex-direction: row;
           flex-direction: row;
           width: 66%;
         }
-        .boxactivites_a,
-        .boxactivites_b,
-        .boxactivites_c {
+        .box-activites-a,
+        .box-activites-b,
+        .box-activites-c {
           width: 100%;
           height: 65%;
           margin-bottom: 15px;
         }
-        .boxactivites_b,
-        .boxactivites_c {
+        .box-activites-b,
+        .box-activites-c {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -830,7 +830,7 @@ main {
   margin-left: 20px;
   margin-bottom: 30px;
   }
-  .sectionactivites {
+  .section-activites {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -843,13 +843,13 @@ main {
   margin-bottom: 25px;
   width: 100%;
   }
-  .boxactivites_1 {
+  .box-activites-1 {
   width: 90%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   }
-  .boxactivites_2 {
+  .box-activites-2 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
@@ -859,9 +859,9 @@ main {
   -ms-flex-align: center;
   align-items: center;
   }
-  .boxactivites_a,
-  .boxactivites_b,
-  .boxactivites_c {
+  .box-activites-a,
+  .box-activites-b,
+  .box-activites-c {
   width: 100%;
   height: 190px;
   margin-bottom: 25px;
