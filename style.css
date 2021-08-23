@@ -696,7 +696,7 @@ main {
   nav ul {
     width: 100%;
     padding-left: 0;
-    margin-right: 0;
+    margin-right: 0; 
   }
   nav ul li {
     border-bottom: solid 2.5px  #f2f2f2;
@@ -706,14 +706,13 @@ main {
   }
   .menui-tem {
     text-align: center;
-   
     padding-bottom: 15px;
     padding-top: 25px;
     border-bottom: solid 2.5px #f2f2f2;
     
   }
     .menu-item a{
-      margin-left: 25%;
+      margin-left: 30%;
     }
     nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
@@ -887,7 +886,7 @@ main {
       margin-top: 5%;
      }
     .filterstitle {
-      font-size: 20px;
+      font-size: 17px;
       width: 100%;
       margin: 2%;
     }
@@ -895,7 +894,7 @@ main {
       font-size: 18px;
     } 
     .icon-text-filters{
-      margin-left: auto;
+      margin-left: 6%;
     }
     .search h1{
       font-size: 26px;
@@ -912,12 +911,15 @@ main {
        font-size: 15px;
      }
      .icon-text-filters {
-       font-size: 13px;
+       font-size: 13.5px;
+       margin-left: 5%;
      }
+    
      filter p{
        font-size: 8px;
+       
      }
-      }@media screen and (max-width: 332px){
+      }@media screen and (max-width: 337px){
         .search h1{  
           font-size: 20px;
         }
@@ -926,6 +928,9 @@ main {
         }
         .filterstitle{
           font-size: 13px;
+        }
+        .icon-text-filters:nth-child(2){
+          margin-left: 20px;
         }
         .icon-text-filters {
           font-size: 11px;
