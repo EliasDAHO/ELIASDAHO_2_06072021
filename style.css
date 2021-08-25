@@ -37,7 +37,7 @@
     color: #0097fc;
   }
  .menu-item.selected{
-    border-top: 2.5px solid #0097fc;
+    border-top: 2px solid #0097fc;
     padding-top: 36px; 
   }
   nav {
@@ -165,21 +165,20 @@
     border: 2px solid #deebff;
     border-radius: 60px;
     margin-left: 1.2em;
-    background-color: #f1f7ff;
+    background-color: white;
     padding-right: 30px;
     font-weight: bold;
     font-size: 1em;
     } 
  .icon-text-filters :hover {
-  
-    -webkit-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  }
-.filter-icon-economic {
+}
+ .filter-icon-economic {
   background-color: #DEEBFF;
   color: blue;
   border-radius: 100%;
@@ -200,7 +199,7 @@
   align-items: center;
   justify-content: center;
   margin-right: 10px
-  }
+  } 
 .filter-icon-lover {
   background-color: #DEEBFF;
   color: blue;
@@ -915,17 +914,11 @@ main {
        font-size: 13.5px;
        margin-left: 8px;
      }
-    
-   
-     
-     
     }
     @media screen and (max-width: 353px){
       .icon-text-filters {
         font-size: 12px;
       }
-      
-      
       h2{
         font-size: 15px;
       }
@@ -949,7 +942,6 @@ main {
         .icon-text-filters {
           font-size: 11px;
           margin-left: 2px;
-          
         }
         .filter p{
           font-size: 12px;
