@@ -601,11 +601,12 @@ main {
 .popular {
       background-color: #f2f2f2;
       border-radius: 0;
-      width: 100%;
+      width: 90%;
       margin-top: 2.5em;
       position: relative;
       margin-left: auto;
       margin-right: auto;
+      
       }
 .image_popular {
       border-top-left-radius: 15px;
@@ -617,6 +618,9 @@ main {
       float: left;
       padding-right: 10px;
       margin-right: 5px;
+      }
+      .popular-stars{
+        margin-top: 94px;
       }
      .container {
       background-color:white;
@@ -666,7 +670,7 @@ main {
           -webkit-box-direction: normal;
           -ms-flex-direction: row;
           flex-direction: row;
-          margin-left: 5%;
+          margin-left: 3%;
         }
         .imageactivites_a,
         .imageactivites_b,
@@ -677,6 +681,7 @@ main {
         figcaption{
           font-size: 15px;
         }  
+       
         .apropos,.lodgings-footer,
         .assistance { 
           margin-left: 1.5%;
@@ -798,12 +803,21 @@ main {
   h2{
     margin-left: 3%;
   }
+  h3{
+    font-size: 14px;
+  }
+  p{
+    margin-top: 14px;
+  }
+  .popular-stars{
+    margin-top: 94px;
+  }
+ 
+  
   .charticon{
     margin-right: 3%;
   }
-  .popular-stars {
-    margin-top: 14%;
-  }
+ 
   footer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: horizontal;
@@ -813,6 +827,11 @@ main {
     margin-right: auto;
      margin-left: auto;
      }
+}
+@media screen and (max-width: 612px){
+.box-populars:nth-child(2) .popular-stars {
+  margin-top: 80px;
+}
 }
 
 @media screen and (max-width: 451px){
@@ -829,7 +848,7 @@ main {
     overflow-x: hidden;
      }
      nav ul li:hover {
-      border-top: solid 2px;
+      border-bottom: solid 2px #0065fc ;
     }
   .selected a{
     margin-left: 19.5%;
@@ -859,9 +878,11 @@ main {
     .searchfield {
       width: 65%;
     }
-    .popular-stars{
-      margin-top: 20%;
+    P{
+      margin-top: 15px;
     }
+    
+    
     .container {
       background-color:white;
       margin-top: 10px;
@@ -928,4 +949,3 @@ main {
     height: 135px;
     }
 }
- 
