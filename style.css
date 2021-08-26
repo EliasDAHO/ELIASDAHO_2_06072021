@@ -414,6 +414,7 @@ figure {
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 20px rgb(230, 230, 230);
   box-shadow: 2px 2px 20px rgb(230, 230, 230);
+  
 }
 figure:hover {
   -webkit-transform: scale(1.05);
@@ -425,8 +426,8 @@ figure:hover {
 }
 figcaption {
   font-weight: bold;
-  font-size: 17px;
-  margin-left: 1.4em;
+  font-size: 14px;
+  margin-left: 1.2em;
   margin-top: 0.3em;
 }
 #Activities h2 {
@@ -447,6 +448,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   padding: 0;
+  
 }
 .box-activites-2 {
   display: -webkit-box;
@@ -463,6 +465,7 @@ figcaption {
   -ms-flex-align: stretch;
   align-items: stretch;
   padding: 0;
+  
 }
 .box-activites-a {
   width: 19em;
@@ -471,13 +474,13 @@ figcaption {
 }
 .box-activites-b {
   width: 16em;
-  height: 50%;
+  height: 40%;
   padding: 0;
   margin: 0;
 }
 .box-activites-c {
   width: 16em;
-  height: 41%;
+  height:41%;
   padding: 0;
   margin: 0;
 }
@@ -485,7 +488,7 @@ figcaption {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 85%;
+  height: 90%;
   padding-bottom: 10px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -494,7 +497,7 @@ figcaption {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 70%;
+  height: 75%;
   padding-bottom: 10px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -503,7 +506,7 @@ figcaption {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   width: 100%;
-  height: 63%;
+  height: 74%;
   padding-bottom: 10px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -515,6 +518,7 @@ footer {
   background-color: #f2f2f2;
   padding-bottom: 30px;
   padding-top: 40px;
+  
 }
 footer h4 {
   font-size: 1.1em;
@@ -821,8 +825,15 @@ main {
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
      }
-  .filters {
-    width:100%;
+     nav ul li:hover {
+      border-top: solid 2px;
+    }
+    
+    .selected a{
+    margin-left: 19.5%;
+    }
+    .filters {
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -840,14 +851,78 @@ main {
       width: 100%;
       margin: 2%;
     }
-    .filter p {
-      font-size: 18px;
-    } 
-    .icon-text-filters{
-      margin-left: 18px;
-      
-    }
+    
+    
     .search h1{
       font-size: 26px;
     }
+    .searchfield {
+      width: 65%;
+    }
+    .container {
+      background-color:white;
+      margin-top: 10px;
+      width: 100%;
+      }
+      .box-lodging {
+      width: 90%;
+      height: 250px;
+      margin-right: 1%;
+      }
+      .image_lodging{
+        width: 100%;
+        height: 170px;
+        }
+   
+    #Activities {
+    width: 100%;
+    margin: 0;
+    }
+    #Activities h2 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    }
+    .section-activites {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: auto;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 100%;
+    }
+    .box-activites-1 {
+    width: 90%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    }
+    .box-activites-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 90%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+    .box-activites-a,
+    .box-activites-b,
+    .box-activites-c {
+    width: 100%;
+    height: 190px;
+    margin-bottom: 25px;
+    }
+    .imageactivites_a,
+    .imageactivites_b,
+    .imageactivites_c {
+    height: 135px;
+    }
+  }
  
