@@ -170,15 +170,17 @@
     padding-right: 30px;
     font-weight: bold;
     font-size: 1em;
-    } 
- .icon-text-filters :hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
+  } 
+  a   :hover {
+    background-color: #f1f7ff;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+ }
+
  .filter-icon-economic {
   background-color: #DEEBFF;
   color: blue;
@@ -190,6 +192,12 @@
   justify-content: center;
   margin-right: 10px;
 }
+.filter-icon-economic :hover{
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+  
+ }
+
 .filter-icon-family {
   background-color: #DEEBFF;
   color: blue;
@@ -201,6 +209,10 @@
   justify-content: center;
   margin-right: 10px
   } 
+.filter-icon-family :hover{
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
 .filter-icon-lover {
   background-color: #DEEBFF;
   color: blue;
@@ -212,6 +224,10 @@
   justify-content: center;
   margin-right: 10px
 }
+.filter-icon-lover :hover{
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
 .filter-icon-animals {
   background-color: #DEEBFF;
   color: blue;
@@ -222,6 +238,10 @@
   align-items: center;
   justify-content: center;
   margin-right: 5px
+}
+.filter-icon-animals :hover{
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
 }
 .fas .fa{
   color: blue;
@@ -787,90 +807,20 @@ main {
   }
   }
           
-  @media screen and (max-width: 551px) {
-  * {
-     margin: 0;
-      }
-  html {
-     -webkit-overflow-x: hidden;
-     overflow-x: hidden;
-      }
-   body {
-     margin: auto;
-     -webkit-overflow-x: hidden;
-     overflow-x: hidden;
-      }
-  .search h1 {
-    font-size: 22px;
-    margin-right: 12%;
-  }
-  .container {
-    background-color:white;
-    margin-top: 10px;
-    width: 100%;
-    }
-    .box-lodging {
-    width: 90%;
-    height: 250px;
-    margin-right: 1%;
-    }
-    .image_lodging{
-      width: 100%;
-      height: 170px;
-      }
  
-  #Activities {
-  width: 100%;
-  margin: 0;
-  }
-  #Activities h2 {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  }
-  .section-activites {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: auto;
-  margin: auto;
-  margin-bottom: 25px;
-  width: 100%;
-  }
-  .box-activites-1 {
-  width: 90%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  }
-  .box-activites-2 {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 90%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  }
-  .box-activites-a,
-  .box-activites-b,
-  .box-activites-c {
-  width: 100%;
-  height: 190px;
-  margin-bottom: 25px;
-  }
-  .imageactivites_a,
-  .imageactivites_b,
-  .imageactivites_c {
-  height: 135px;
-  }
-}
 @media screen and (max-width: 451px){
+  * {
+    margin: 0;
+     }
+ html {
+    -webkit-overflow-x: hidden;
+    overflow-x: hidden;
+     }
+  body {
+    margin: auto;
+    -webkit-overflow-x: hidden;
+    overflow-x: hidden;
+     }
   .filters {
     width:100%;
     display: flex;
@@ -900,58 +850,4 @@ main {
     .search h1{
       font-size: 26px;
     }
-  }
-  @media screen and (max-width: 405px){
-    .selected a{
-      margin-left: 10%;
-    }
-    .search h1{  
-      font-size: 22px;
-     }
-     .search p{
-       font-size: 15px;
-     }
-     .icon-text-filters {
-       font-size: 13.5px;
-       margin-left: 8px;
-     }
-    }
-    @media screen and (max-width: 353px){
-      .icon-text-filters {
-        font-size: 12px;
-      }
-      h2{
-        font-size: 15px;
-      }
-      .charticon{
-        font-size: 14px;
-        margin-top: 4px;
-      }
-    }
-      @media screen and (max-width: 337px){
-        .search h1{  
-          font-size: 20px;
-        }
-        .searchfield{
-          font-size: 12px;
-        }
-        .filterstitle{
-          font-size: 13px;
-          margin-left: 5px;
-        }
-        
-        .icon-text-filters {
-          font-size: 11px;
-          margin-left: 2px;
-        }
-        .filter p{
-          font-size: 12px;
-        }
-        h2{
-          font-size: 14px;
-        }
-        .charticon{
-          font-size: 12px;
-          margin-top: 4px;
-        }
-      }
+ 
