@@ -426,8 +426,8 @@ figure:hover {
 }
 figcaption {
   font-weight: bold;
-  font-size: 14px;
-  margin-left: 1.2em;
+  font-size: 15px;
+  margin-left: 1em;
   margin-top: 0.3em;
 }
 #Activities h2 {
@@ -666,7 +666,7 @@ main {
           -webkit-box-direction: normal;
           -ms-flex-direction: row;
           flex-direction: row;
-          margin-left: 3%;
+          margin-left: 5%;
         }
         .imageactivites_a,
         .imageactivites_b,
@@ -680,20 +680,15 @@ main {
         .apropos,.lodgings-footer,
         .assistance { 
           margin-left: 1.5%;
+          width: 100%;
         }
-      }
- @media screen  and (max-width: 900px) { 
-
-        footer {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: horizontal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding-bottom: 10px;
-        margin-right: auto;
-         margin-left: auto;
-         }
-        }
+       
+         
+          }
+         
+                
+            
+ 
  @media screen and (max-width: 770px){
   * {
     margin: 0;
@@ -778,10 +773,7 @@ main {
     align-content: flex-start;
     position: relative;
     }
-   #formulaire{
-     width: 100%;
-   }
-    .search {
+  .search {
         width: 100%;
         margin-top: 5%;
         margin-left:5%;
@@ -809,9 +801,20 @@ main {
   .charticon{
     margin-right: 3%;
   }
+  .popular-stars {
+    margin-top: 14%;
   }
-          
- 
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: horizontal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-right: auto;
+     margin-left: auto;
+     }
+}
+
 @media screen and (max-width: 451px){
   * {
     margin: 0;
@@ -828,8 +831,7 @@ main {
      nav ul li:hover {
       border-top: solid 2px;
     }
-    
-    .selected a{
+  .selected a{
     margin-left: 19.5%;
     }
     .filters {
@@ -851,13 +853,14 @@ main {
       width: 100%;
       margin: 2%;
     }
-    
-    
     .search h1{
       font-size: 26px;
     }
     .searchfield {
       width: 65%;
+    }
+    .popular-stars{
+      margin-top: 20%;
     }
     .container {
       background-color:white;
@@ -924,5 +927,5 @@ main {
     .imageactivites_c {
     height: 135px;
     }
-  }
+}
  
