@@ -579,20 +579,13 @@ main {
     flex-direction: column-reverse;
     margin: auto;
     }
-    .asidepopulaires {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
+  
      
-    }
+    
    .box-populars {
       display: inline-block;
       width: 95%;
-      height: 60%;
+      height: 40%;
       margin-bottom: 30px;
       margin-top: 12px;
       background-color: white;
@@ -612,16 +605,17 @@ main {
       border-top-left-radius: 15px;
       border-bottom-left-radius: 15px;
       width: 41%;
-      height: 180px;
+      height: 200px;
       -o-object-fit: cover;
       object-fit: cover;
       float: left;
       padding-right: 10px;
       margin-right: 5px;
       }
-      .popular-stars{
-        margin-top: 94px;
-      }
+      
+        
+      
+      
      .container {
       background-color:white;
       margin-top: 10px;
@@ -686,7 +680,8 @@ main {
           margin-left: 1.5%;
           width: 100%;
         }
-        }
+      }
+        
         
         
        
@@ -796,6 +791,7 @@ main {
           .popular{
             width: 100%;
           }
+         
           .charticon{
             margin-right: 3%;
           }
@@ -856,9 +852,7 @@ main {
               width: 100%;
               margin: 2%;
             }
-            .search h1{
-              font-size: 26px;
-            }
+            
             .searchfield {
               width: 60%;
             }
@@ -941,6 +935,7 @@ main {
             height: 135px;
             }
         }
+        
 
         
                 
