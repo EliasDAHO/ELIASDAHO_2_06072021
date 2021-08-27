@@ -38,7 +38,7 @@
     
   }
  .menu-item.selected{
-    border-top: 2px solid #0097fc;
+    border-top: 2px solid #0065fc;
     padding-top: 39px; 
   }
   nav {
@@ -591,8 +591,8 @@ main {
     }
    .box-populars {
       display: inline-block;
-      width: 92%;
-      height: 80%;
+      width: 95%;
+      height: 100%;
       margin-bottom: 30px;
       margin-top: 12px;
       background-color: white;
@@ -689,8 +689,8 @@ main {
         }
        
          
-          }
-         
+        }
+        
                 
             
  
@@ -729,13 +729,11 @@ main {
     justify-content: center;
     align-content: center;
   }
-  
   .menu-item a{
     margin-left: 16%;  
     margin-right: 9%;
   }
-  
-    nav ul li:hover {
+  nav ul li:hover {
     border-bottom: solid 2.5px #0065fc;
     border-top: solid 2.5px transparent;
     padding-bottom: 15px;
@@ -743,7 +741,6 @@ main {
   .selected a{
     color: #0097fc;
   }
-  
   .menu-item.selected{
     color: #0065fc;
     border-top: none;
@@ -800,17 +797,9 @@ main {
   h2{
     margin-left: 3%;
   }
-  h3{
-    font-size: 14px;
+  .popular{
+    width: 100%;
   }
-  p{
-    margin-top: 14px;
-  }
-  .popular-stars{
-    margin-top: 94px;
-  }
- 
-  
   .charticon{
     margin-right: 3%;
   }
@@ -825,11 +814,25 @@ main {
      margin-left: auto;
      }
 }
-@media screen and (max-width: 612px){
-.box-populars:nth-child(2) .popular-stars {
-  margin-top: 80px;
-}
-}
+@media screen and (max-width: 600px){
+  .box-populars:nth-child(2) .popular-stars {
+    margin-top: 70px;
+  }
+  .popular-stars {
+    margin-top: 85px;
+  }
+
+ .box-populars, h3, p {
+   
+   margin: space-between;
+ }  
+}   
+
+
+
+
+
+
 
 @media screen and (max-width: 451px){
   * {
@@ -844,13 +847,10 @@ main {
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
      }
-   
-     
-     nav ul li:hover {
-      border-bottom: solid 2px #0065fc ;
+  nav ul li:hover {
+    border-bottom: solid 2px #0065fc ;
     }
-    
-    nav ul li {
+  nav ul li {
       display: flex;
       justify-content: center;
       align-content: center;
@@ -859,8 +859,7 @@ main {
       margin-left: 16%;  
       margin-right: 9%;
     }
-    
-    .filters {
+  .filters {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -883,11 +882,11 @@ main {
       font-size: 26px;
     }
     .searchfield {
-      width: 65%;
+      width: 63%;
     }
-    
-    
-    
+    .popular {
+      width: 100%;
+    }
     .container {
       background-color:white;
       margin-top: 10px;
