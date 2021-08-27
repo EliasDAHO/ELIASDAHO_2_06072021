@@ -726,12 +726,10 @@ main {
     padding-bottom: 15px;
     width: 100%;
     display: flex;
-  }
-  nav ul li {
-    display: flex;
     justify-content: center;
     align-content: center;
   }
+  
   .menu-item a{
     margin-left: 16%;  
     margin-right: 9%;
