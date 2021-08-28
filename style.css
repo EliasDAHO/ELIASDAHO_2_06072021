@@ -602,8 +602,8 @@ footer ul li {
        .box-populars {
         display: inline-block;
         padding: 0.4em;
-        width: 90%;
-        height: 55%;
+        width: 95%;
+        height: 100%;
         margin-bottom: 20px;
         margin-top: 12px;}
         .popular-stars 
@@ -801,155 +801,164 @@ footer ul li {
              margin-right: auto;
               margin-left: auto;
               }
-         } 
-         @media screen and (max-width: 518px){
-          .box-populars:nth-child(2) .popular-stars {
-            margin-top: 65px;
-          }
-         }
-
-         
-
-        
-         @media screen and (max-width: 451px){
-           * {
-             margin: 0;
-              }
-          html {
-             -webkit-overflow-x: hidden;
-             overflow-x: hidden;
-              }
-           body {
-             margin: auto;
-             -webkit-overflow-x: hidden;
-             overflow-x: hidden;
-              }
-           nav ul li:hover {
-             border-bottom: solid 2px #0065fc ;
-             }
-           nav ul li {
-               display: flex;
-               justify-content: center;
-               align-content: center;
-             }
-             .menu-item a{
-               margin-left: 16%;  
-               margin-right: 9%;
-             }
-             .search h1{
-               font-size: 26px;
-             }
-           .filters {
-             width: 100%;
-             display: flex;
-             flex-direction: row;
-             flex-wrap: wrap;
-             justify-content: flex-start;
-             align-items: baseline;
-             align-content: flex-start;
-             position: relative;
-             }
-             .filter {
-               margin-left: 4%;
-               margin-top: 5%;
-              }
-             .filterstitle {
-               font-size: 17px;
-               width: 100%;
-               margin: 2%;
-             }
-              .searchfield {
-               width: 60%;
-             }
-             .popular {
-               width: 100%;
-             }
+            }
             
- 
-             .box-populars {
-               display: inline-block;
-               width: 90%;
-               height: 100%;
-               margin-bottom: 30px;
-               margin-top: 12px;
-               background-color: white;
-               border-radius: 20px;
-              }
+            @media screen and (max-width: 518px){
               .box-populars:nth-child(2) .popular-stars {
-                margin-top: 70px;
+                margin-top: 17%;
               }
-              
-              .container {
-               background-color:white;
-               margin-top: 10px;
-               width: 100%;
-               }
-               .box-lodging {
-               width: 90%;
-               height: 250px;
-               margin-right: 1%;
-               }
-               .image_lodging{
-                 width: 100%;
-                 height: 170px;
+             }
+          
+             @media screen and (max-width: 451px){
+               * {
+                 margin: 0;
+                  }
+              html {
+                 -webkit-overflow-x: hidden;
+                 overflow-x: hidden;
+                  }
+               body {
+                 margin: auto;
+                 -webkit-overflow-x: hidden;
+                 overflow-x: hidden;
+                  }
+               nav ul li:hover {
+                 border-bottom: solid 2px #0065fc ;
                  }
-            
-             #Activities {
-             width: 100%;
-             margin: 0;
-             }
-             #Activities h2 {
-             font-size: 20px;
-             margin-left: 20px;
-             margin-bottom: 30px;
-             }
-             .section-activites {
-             -webkit-box-orient: vertical;
-             -webkit-box-direction: normal;
-             -ms-flex-direction: column;
-             flex-direction: column;
-             -webkit-box-align: center;
-             -ms-flex-align: center;
-             align-items: center;
-             height: auto;
-             margin: auto;
-             margin-bottom: 25px;
-             width: 100%;
-             }
-             .box-activites-1 {
-             width: 90%;
-             -webkit-box-pack: center;
-             -ms-flex-pack: center;
-             justify-content: center;
-             }
-             .box-activites-2 {
-             -webkit-box-orient: vertical;
-             -webkit-box-direction: normal;
-             -ms-flex-direction: column;
-             flex-direction: column;
-             width: 90%;
-             -webkit-box-align: center;
-             -ms-flex-align: center;
-             align-items: center;
-             }
-             .box-activites-a,
-             .box-activites-b,
-             .box-activites-c {
-             width: 100%;
-             height: 190px;
-             margin-bottom: 25px;
-             }
-             .imageactivites_a,
-             .imageactivites_b,
-             .imageactivites_c {
-             height: 135px;
-             }
-         }
-
-         
-       
-        
+               nav ul li {
+                   display: flex;
+                   justify-content: center;
+                   align-content: center;
+                 }
+                 .menu-item a{
+                   margin-left: 16%;  
+                   margin-right: 9%;
+                 }
+                 .search h1{
+                   font-size: 26px;
+                 }
                 
-            
- 
- 
+               .filters {
+                 width: 100%;
+                 display: flex;
+                 flex-direction: row;
+                 flex-wrap: wrap;
+                 justify-content: flex-start;
+                 align-items: baseline;
+                 align-content: flex-start;
+                 position: relative;
+                 }
+                 .filter {
+                   margin-left: 4%;
+                   margin-top: 5%;
+                  }
+                 .filterstitle {
+                   font-size: 17px;
+                   width: 100%;
+                   margin: 2%;
+                 }
+                  .searchfield {
+                   width: 60%;
+                 }
+                 .popular {
+                   width: 100%;
+                   margin-top: 2.1em;
+                   padding-bottom: 20px;
+                   position: relative;
+          
+                 }
+                 .box-populars {
+                   display: inline-block;
+                   width: 90%;
+                   height: 80%;
+                   margin-bottom: 30px;
+                   margin-top: 12px;
+                   background-color: white;
+                   border-radius: 20px;
+                  }
+                  .box-populars:nth-child(2) .popular-stars {
+                    margin-top: 65px;
+                  }
+                  
+                 
+                  
+                  .container {
+                   background-color:white;
+                   margin-top: 10px;
+                   width: 100%;
+                   }
+                   .box-lodging {
+                   width: 90%;
+                   height: 250px;
+                   margin-right: 1%;
+                   }
+                   .image_lodging{
+                     width: 100%;
+                     height: 170px;
+                     }
+                
+                 #Activities {
+                 width: 100%;
+                 margin: 0;
+                 }
+                 #Activities h2 {
+                 font-size: 20px;
+                 margin-left: 20px;
+                 margin-bottom: 30px;
+                 }
+                 .section-activites {
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                 -ms-flex-direction: column;
+                 flex-direction: column;
+                 -webkit-box-align: center;
+                 -ms-flex-align: center;
+                 align-items: center;
+                 height: auto;
+                 margin: auto;
+                 margin-bottom: 25px;
+                 width: 100%;
+                 }
+                 .box-activites-1 {
+                 width: 90%;
+                 -webkit-box-pack: center;
+                 -ms-flex-pack: center;
+                 justify-content: center;
+                 }
+                 .box-activites-2 {
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                 -ms-flex-direction: column;
+                 flex-direction: column;
+                 width: 90%;
+                 -webkit-box-align: center;
+                 -ms-flex-align: center;
+                 align-items: center;
+                 }
+                 .box-activites-a,
+                 .box-activites-b,
+                 .box-activites-c {
+                 width: 100%;
+                 height: 190px;
+                 margin-bottom: 25px;
+                 }
+                 .imageactivites_a,
+                 .imageactivites_b,
+                 .imageactivites_c {
+                 height: 135px;
+                 }
+             }
+          
+             @media screen and (max-width: 360px){
+              
+               h3{
+                 font-size: 14px;
+                
+               }
+              }
+              @media screen and (max-width: 320px){
+              .box-populars:nth-child(3) .popular-stars{
+                margin-top: 60px;
+              }
+            }
+
