@@ -618,8 +618,8 @@ footer ul li {
        margin-right: 5px;
        }
        .popular-stars{
-         margin-top: 8%;
-       }
+        margin-top: 94px;
+      }
       .container {
        background-color:white;
        margin-top: 10px;
@@ -801,6 +801,12 @@ footer ul li {
              margin-left: auto;
              }  
             }  
+
+            @media screen and (max-width: 490px){
+              .box-populars:nth-child(2) .popular-stars {
+                margin-top: 70px;
+              }
+             }
             @media screen and (max-width: 451px){
               * {
                 margin: 0;
@@ -848,98 +854,69 @@ footer ul li {
                   margin: 2%;
                 }
                 .search h1 {
-                  font-size: 25px;
-                  margin-top: 15%;
-                  margin-right: 18%;
-                  margin-left: 2%;
+                  font-size: 26px;
+                  margin-top: 10%;
+                 
                   }
                   .search p {
-                  margin-top: 10px;
-                  font-size: 18px;
-                  margin-right: 10px;
-                  margin-left: 2%;
-                  } 
+                    margin-top: 10px;
+                    font-size: 18px;
+                    margin-right: 10px;
+                    margin-left: 2%;
+                    } 
                  .searchfield {
                   width: 60%;
                 
                  }
-                 .container h2,
-    .popular h2 {
-    margin: 17px;
-    font-size: 18px;
-    margin-top: 10%;
-    
-  }
-  .popular p {
-    font-size: 15px;
-    margin-bottom: 0;
-  }
-  .charticon {
-    font-size: 20px;
-    margin-bottom: 15px;
-    margin-top: 1%;
-  }
-  .principal h3,
-  .popular h3 {
-  font-size: 15px;
-}
-                 .box-populars {
-                  display: inline-block;
-                  padding: 1%;
-                  width: 90%;
-                  height: 80%;
-                  margin-bottom: 30px;
-                  margin-top: 12px;
-                  background-color: white;
-                  border-radius: 20px;
+                 .filter p {
+                  font-size: 16px;
+                  margin-right: 10%;
                 }
-                .popular {
-                  background-color: #f2f2f2;
-                  border-radius: 0;
-                  width: 100%;
-                  margin-top: 2.1em;
-                  padding-bottom: 20px;
-                  position: relative;
-                  
+                .container h2{
+                  margin-left: 17px;
                 }
-                .image_popular {
-                  border-top-left-radius: 15px;
-                  border-bottom-left-radius: 15px;
-                  width: 40%;
-                  height: 140px;
-                  -o-object-fit: cover;
-                  object-fit: cover;
-                  float: left;
-                  padding-right: 10px;
-                  margin-right: 5px;
-                }
-                
+                .popular h2 {
+                margin-left: 17px;
+              }
+              .popular p {
+                font-size: 15px;
+                margin-bottom: 0;
+            }
+           
+           .principal h3,
+           .popular h3 {
+                font-size: 15px;
+            }
+            .box-populars {
+             
               
-                 .container {
+              width: 92%;
+            }
+              
+            .container {
                   background-color:white;
                   margin-top: 10px;
                   width: 100%;
-                  }
-                  .box-lodging {
-                  width: 90%;
-                  height: 250px;
-                  margin-right: 1%;
-                  }
-                  .image_lodging{
-                    width: 100%;
-                    height: 170px;
-                    }
-               
-                #Activities {
+            }
+            .box-lodging {
+                width: 90%;
+                height: 250px;
+                margin-right: 1%;
+            }
+            .image_lodging{
+                 width: 100%;
+                height: 170px;
+            }
+             #Activities {
                 width: 100%;
                 margin: 0;
-                }
-                #Activities h2 {
+            }
+            #Activities h2 {
                 font-size: 20px;
                 margin-left: 20px;
                 margin-bottom: 30px;
-                }
-                .section-activites {
+            }
+            .section-activites {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                 -ms-flex-direction: column;
@@ -980,7 +957,26 @@ footer ul li {
                 .imageactivites_c {
                 height: 135px;
                 }
-            }      
+            }  
+            
+            
+            @media screen and (max-width: 344px){
+              .box-populars:nth-child(3) .popular-stars{
+                margin-top: 68px;
+              }
+              
+            }
+
+            @media screen and (max-width: 328px){
+              .box-populars:nth-child(1) .popular-stars{
+                margin-top: 70px;
+              }
+              
+            }
+
+
+
+          
          
 
   
