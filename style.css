@@ -638,7 +638,7 @@ footer ul li {
          height: 130px;
          }
          .popular-stars{
-           margin-top: 94px;
+           margin-top: 80px;
          }
          #Activities {
           width: 100%;
@@ -776,6 +776,7 @@ footer ul li {
                 margin-top: 5%;
                 margin-left:5%;
               }
+            
            .iconesearch{
             width: 55px; 
             border: none;
@@ -801,14 +802,10 @@ footer ul li {
                 margin-bottom: 20px;
                 margin-top: 12px;
               }
-              .popular-stars{
+          .popular-stars{
                 margin-top: 85px;
               }
-         
-          
-          
-          
-          footer {
+           footer {
             -webkit-box-orient: vertical;
             -webkit-box-direction: horizontal;
             -ms-flex-direction: column;
@@ -818,10 +815,10 @@ footer ul li {
              margin-left: auto;
              }  
             }  
-            @media screen and (max-width: 490px){
+            @media screen and  (max-width: 488px){
               .box-populars:nth-child(2) .popular-stars {
                 margin-top: 65px;
-                margin-bottom: 0;
+                
               }
              }
             
@@ -860,7 +857,7 @@ footer ul li {
                   align-items: baseline;
                   align-content: flex-start;
                   position: relative;
-                  margin-left: 0;
+                  
                 }
               .filter {
                   margin-left: 3%;
@@ -869,22 +866,18 @@ footer ul li {
               .filterstitle {
                    margin: 3%;
                 }
-               
-                
-                .search h1 {
+              .search h1 {
                   margin-right: 20%;
                   margin-top: 10%;
-                 
-                  }
-                  .search p {
-                    margin-top: 10px;
-                    margin-left: 1%;
-                    } 
-                 .searchfield {
+                }
+              .search p {
+                  margin-top: 10px;
+                  margin-left: 1%;
+                } 
+              .searchfield {
                   width: 60%;
-                
-                 }
-                 .filter p{
+                }
+              .filter p{
                    margin-left: 2%;
                    margin-right: 10%;
                  }
@@ -899,6 +892,10 @@ footer ul li {
               }
               .box-populars{
                 width: 92%;
+              }
+              .box-populars:nth-child(2) .popular-stars {
+                margin-top: 65px;
+                margin-bottom: 0;
               }
               .container {
                   background-color:white;
@@ -966,14 +963,17 @@ footer ul li {
                 }
             }  
             @media screen and (max-width: 348px) {
-               
+              
                 .box-populars:nth-child(3) .popular-stars{
-                  margin-top: 58px;
+                  margin-top: 60px;
+                }
+                .box-populars:nth-child(1) .popular-stars{
+                  margin-top: 78px;
                 }
             }
             @media screen and (max-width: 337px) {
               .box-populars:nth-child(1) .popular-stars{
-                margin-top: 65px;
+                margin-top: 63px;
               }
             }
             
