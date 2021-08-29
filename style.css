@@ -971,9 +971,9 @@ footer ul li {
                   margin-top: 58px;
                 }
             }
-            @media screen and (max-width: 338px) {
+            @media screen and (max-width: 337px) {
               .box-populars:nth-child(1) .popular-stars{
-                margin-top: 58px;
+                margin-top: 68px;
               }
             }
             
