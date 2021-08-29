@@ -595,8 +595,9 @@ footer ul li {
           width: 95%;
           height: 100%;
           margin-bottom: 20px;
-          margin-top: 12px;}
- .popular {
+          margin-top: 12px;
+        }
+     .popular {
        background-color: #f2f2f2;
       border-radius: 0;
        width: 100%;
@@ -604,9 +605,8 @@ footer ul li {
        position: relative;
        margin-left: 0;
        margin-right: 0;
-       
-       }
- .image_popular {
+      }
+     .image_popular {
        border-top-left-radius: 15px;
        border-bottom-left-radius: 15px;
        width: 40%;
@@ -644,6 +644,7 @@ footer ul li {
           -ms-flex-wrap: wrap;
           flex-wrap: wrap;
           height: 100%;
+          margin: 1%;
          }
         .box-activites-1 {
           width: 34%;
@@ -661,6 +662,7 @@ footer ul li {
           width: 100%;
           height: 85%;
           margin-bottom: 40px;
+          
         }
         .box-activites-b,
         .box-activites-c {
@@ -669,6 +671,7 @@ footer ul li {
           -ms-flex-direction: row;
           flex-direction: row;
           margin-left: 3%;
+          margin-right: 0;
         }
         .imageactivites_a,
         .imageactivites_b,
@@ -676,9 +679,7 @@ footer ul li {
           height: 150px;
           width: 100%;
         }
-        figcaption{
-          font-size: 15px;
-        }  
+        
         .apropos,.lodgings-footer,
         .assistance { 
           margin-left: 1.5%;
@@ -801,12 +802,13 @@ footer ul li {
              margin-left: auto;
              }  
             }  
-
             @media screen and (max-width: 490px){
               .box-populars:nth-child(2) .popular-stars {
-                margin-top: 70px;
+                margin-top: 73px;
+                margin-bottom: 0;
               }
              }
+            
             @media screen and (max-width: 451px){
               * {
                 margin: 0;
@@ -828,49 +830,53 @@ footer ul li {
                   justify-content: center;
                   align-content: center;
                 }
-                .menu-item a{
+              .menu-item a{
                   margin-left: 16%;  
                   margin-right: 9%;
                 }
-                
-               
               .filters {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: flex-start;
-                align-items: baseline;
-                align-content: flex-start;
-                position: relative;
+                  width: 100%;
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  justify-content: flex-start;
+                  align-items: baseline;
+                  align-content: flex-start;
+                  position: relative;
+                  margin-left: 0;
                 }
-                .filter {
+              .filter {
                   margin-left: 3%;
                   margin-top: 5%;
-                 }
-                 .filterstitle {
+                }
+              .filterstitle {
                    margin: 3%;
                 }
                
                 
                 .search h1 {
-                  font-size: 26px;
+                  margin-right: 20%;
                   margin-top: 10%;
                  
                   }
                   .search p {
                     margin-top: 10px;
-                    font-size: 18px;
-                    margin-right: 10px;
-                    margin-left: 2%;
+                    
+                    
+                    
+                    margin-left: 1%;
                     } 
                  .searchfield {
                   width: 60%;
                 
                  }
                  .filter p{
-                   margin-left: 5%;
+                   margin-left: 2%;
+                   margin-right: 15%;
                  }
+                 .info-icon {
+                   margin-left: 2%;
+                  }
                 .container h2{
                   margin-left: 17px;
                 }
@@ -882,10 +888,7 @@ footer ul li {
                 margin-bottom: 0;
             }
            
-           .principal h3,
-           .popular h3 {
-                font-size: 15px;
-            }
+          
             .box-populars {
              
               
@@ -959,19 +962,20 @@ footer ul li {
             }  
             
             
-            @media screen and (max-width: 344px){
+            @media screen and (max-width: 349px){
               .box-populars:nth-child(3) .popular-stars{
                 margin-top: 68px;
               }
               
             }
 
-            @media screen and (max-width: 328px){
+
+            @media screen and (max-width: 338px){
               .box-populars:nth-child(1) .popular-stars{
-                margin-top: 70px;
+                margin-top: 25%;
               }
               
-            }
+             
 
 
 
