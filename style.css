@@ -592,7 +592,7 @@ footer ul li {
      .box-populars {
       display: inline-block;
           padding: 0.4em;
-          width: 95%;
+          width: 92%;
           height: 100%;
           margin-bottom: 20px;
           margin-top: 12px;
@@ -616,9 +616,10 @@ footer ul li {
        float: left;
        padding-right: 10px;
        margin-right: 5px;
-       }
-       .popular-stars{
-        margin-top: 94px;
+      }
+      .popular p {
+        
+        margin-top: 15px;
       }
       .container {
        background-color:white;
@@ -635,6 +636,9 @@ footer ul li {
        .image_lodging{
          width: 100%;
          height: 130px;
+         }
+         .popular-stars{
+           margin-top: 94px;
          }
          #Activities {
           width: 100%;
@@ -698,6 +702,7 @@ footer ul li {
             
                }
             body {
+              margin: 0;
             -webkit-overflow-x: hidden;
              overflow-x: hidden;
             }
@@ -788,9 +793,20 @@ footer ul li {
           .searchbutton {
             display: none;
           }
-          .popular{
-            width: 100%;
-          }
+          .box-populars {
+            display: inline-block;
+                padding: 0.4em;
+                width: 95%;
+                height: 100%;
+                margin-bottom: 20px;
+                margin-top: 12px;
+              }
+              .popular-stars{
+                margin-top: 85px;
+              }
+         
+          
+          
           
           footer {
             -webkit-box-orient: vertical;
@@ -804,10 +820,11 @@ footer ul li {
             }  
             @media screen and (max-width: 490px){
               .box-populars:nth-child(2) .popular-stars {
-                margin-top: 73px;
+                margin-top: 65px;
                 margin-bottom: 0;
               }
              }
+            
             
             @media screen and (max-width: 451px){
               * {
@@ -818,7 +835,7 @@ footer ul li {
                 overflow-x: hidden;
                  }
               body {
-                margin: auto;
+                margin: 0;
                 -webkit-overflow-x: hidden;
                 overflow-x: hidden;
                  }
@@ -861,9 +878,6 @@ footer ul li {
                   }
                   .search p {
                     margin-top: 10px;
-                    
-                    
-                    
                     margin-left: 1%;
                     } 
                  .searchfield {
@@ -872,7 +886,7 @@ footer ul li {
                  }
                  .filter p{
                    margin-left: 2%;
-                   margin-right: 15%;
+                   margin-right: 10%;
                  }
                  .info-icon {
                    margin-left: 2%;
@@ -883,33 +897,24 @@ footer ul li {
                 .popular h2 {
                 margin-left: 17px;
               }
-              .popular p {
-                font-size: 15px;
-                margin-bottom: 0;
-            }
-           
-          
-            .box-populars {
-             
-              
-              width: 92%;
-            }
-              
-            .container {
+              .box-populars{
+                width: 92%;
+              }
+              .container {
                   background-color:white;
                   margin-top: 10px;
                   width: 100%;
-            }
-            .box-lodging {
+              }
+              .box-lodging {
                 width: 90%;
                 height: 250px;
                 margin-right: 1%;
-            }
-            .image_lodging{
+              }
+              .image_lodging{
                  width: 100%;
                 height: 170px;
-            }
-             #Activities {
+              }
+              #Activities {
                 width: 100%;
                 margin: 0;
             }
@@ -960,20 +965,26 @@ footer ul li {
                 height: 135px;
                 }
             }  
-            
-            
-            @media screen and (max-width: 349px){
-              .box-populars:nth-child(3) .popular-stars{
-                margin-top: 68px;
-              }
-              
+            @media screen and (max-width: 348px) {
+               
+                .box-populars:nth-child(3) .popular-stars{
+                  margin-top: 58px;
+                }
             }
-
-
-            @media screen and (max-width: 338px){
+            @media screen and (max-width: 338px) {
               .box-populars:nth-child(1) .popular-stars{
-                margin-top: 25%;
+                margin-top: 58px;
               }
+            }
+            
+
+
+           
+            
+            
+           
+            
+              
               
              
 
