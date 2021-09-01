@@ -516,7 +516,6 @@ footer {
   background-color: #f2f2f2;
   padding-bottom: 30px;
   padding-top: 40px;
-  
 }
 footer h4 {
   font-size: 1.1em;
@@ -885,7 +884,7 @@ footer ul li {
                 margin-left: 17px;
               }
               .box-populars{
-                width: 92%;
+                width: 91%;
               }
               .box-populars:nth-child(2) .popular-stars {
                 margin-top: 65px;
@@ -959,8 +958,8 @@ footer ul li {
             
             
             @media screen and (max-width: 348px) {
-              
-                .box-populars:nth-child(3) .popular-stars{
+               
+              .box-populars:nth-child(3) .popular-stars{
                   margin-top: 60px;
                 }
                 .box-populars:nth-child(1) .popular-stars{
@@ -972,6 +971,10 @@ footer ul li {
             @media screen and (max-width: 337px) {
               .box-populars:nth-child(1) .popular-stars{
                 margin-top: 63px;
+              }
+              .search h1 {
+                margin-right: 10%;
+                margin-top: 10%;
               }
             }
             
