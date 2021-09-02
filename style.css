@@ -12,7 +12,7 @@
     margin: auto;
     -webkit-overflow-x: hidden;
     overflow-x: hidden;
-    max-width: 1440px;
+    
   }
   header {
     display: -webkit-box;
@@ -21,7 +21,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    max-width: 1440px;
+    
    }
    .logo {
     margin: 1.7vw 3.5vw 2vw 3.2vw;
@@ -173,7 +173,7 @@
     font-weight: bold;
     font-size: 1em;
   } 
-  a   :hover {
+   .filters a  :hover {
     background-color: #f1f7ff;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -284,7 +284,7 @@ main {
   border-radius: 25px;
   margin-top: 2.2em;
   width: 67%;
-  max-width: 1440px;
+  
   }
 .box-lodging {
   width: 25%;
@@ -616,8 +616,8 @@ footer ul li {
        margin-right: 5px;
       }
       .popular p {
-       margin-top: 15px;
-      }
+        margin-top: 15px;
+       }
       .container {
        background-color:white;
        margin-top: 10px;
@@ -795,9 +795,11 @@ footer ul li {
                 margin-bottom: 20px;
                 margin-top: 12px;
               }
-          .popular-stars{
+              .popular-stars{
                 margin-top: 85px;
               }
+          
+              
            footer {
             -webkit-box-orient: vertical;
             -webkit-box-direction: horizontal;
@@ -815,6 +817,47 @@ footer ul li {
                 margin-top: 65px;
                 
               }
+              .section-activites {
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                height: auto;
+                margin: auto;
+                margin-bottom: 25px;
+                width: 100%;
+                }
+                .box-activites-1 {
+                  width: 90%;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  justify-content: center;
+                  }
+                  .box-activites-2 {
+                  -webkit-box-orient: vertical;
+                  -webkit-box-direction: normal;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  width: 90%;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  align-items: center;
+                  }
+                  .box-activites-a,
+                  .box-activites-b,
+                  .box-activites-c {
+                  width: 100%;
+                  height: 190px;
+                  margin-bottom: 25px;
+                  }
+                  .imageactivites_a,
+                  .imageactivites_b,
+                  .imageactivites_c {
+                  height: 135px;
+                  }
              }
             
             
@@ -870,7 +913,7 @@ footer ul li {
                   margin-left: 1%;
                 } 
               .searchfield {
-                  width: 60%;
+                  width: 64%;
                 }
               .filter p{
                    margin-left: 2%;
@@ -886,7 +929,7 @@ footer ul li {
                 margin-left: 17px;
               }
               .box-populars{
-                width: 91%;
+                width: 100%;
               }
               .box-populars:nth-child(2) .popular-stars {
                 margin-top: 65px;
@@ -956,16 +999,23 @@ footer ul li {
                 .imageactivites_c {
                 height: 135px;
                 }
+                .apropos,.lodgings-footer,
+                .assistance { 
+                margin-left: 4%;
+              }
             }  
             
             
             @media screen and (max-width: 348px) {
                
               .box-populars:nth-child(3) .popular-stars{
-                  margin-top: 60px;
-                }
-                .box-populars:nth-child(1) .popular-stars{
-                  margin-top: 82px;
+                margin-top: 60px;
+              }
+              .box-populars:nth-child(1) .popular-stars{
+                margin-top: 82px;
+              }
+                .searchfield {
+                  width: 59%;
                 }
             }
            
@@ -974,11 +1024,19 @@ footer ul li {
               .box-populars:nth-child(1) .popular-stars{
                 margin-top: 63px;
               }
+              
               .search h1 {
                 margin-right: 10%;
                 margin-top: 10%;
               }
+              .searchfield {
+                width: 57%;
+              }
             }
+
+
+
+
             
 
 
