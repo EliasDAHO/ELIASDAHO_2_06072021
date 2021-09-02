@@ -35,7 +35,9 @@
   }
   .selected a{
     color: #0097fc;
-    
+  }
+  .selected a :hover{
+    color: #0065fc;
   }
  .menu-item.selected{
     border-top: 2px solid #0065fc;
@@ -543,7 +545,7 @@ footer ul li {
   margin-left: 3em;
 }
 .apropos ul li:hover,
-.hebergementsfooter ul li:hover,
+.lodgings-footer ul li:hover,
 .assistance ul li:hover {
  -webkit-text-stroke: 1px black;
 }
