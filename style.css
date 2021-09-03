@@ -740,11 +740,13 @@ footer ul li {
               padding-top: 40px;
               border-bottom: solid 2.5px #0065fc;
             }  
-           
-           
-          
-         
-          .sinscrire {
+            .menu-item a :hover{
+              color: #0065fc;
+              border-bottom: solid 2.5px #0065fc;
+              border-top: solid 2.5px transparent;
+              padding-bottom: 15px;
+            }
+            .sinscrire {
             margin-right: 15px;
             font-size: 17px;
           }
@@ -794,59 +796,46 @@ footer ul li {
           .searchbutton {
             display: none;
           }
-          .box-populars {
-            display: inline-block;
-                padding: 0.4em;
-                width: 95%;
-                height: 100%;
-                margin-bottom: 20px;
-                margin-top: 12px;
+         
+          .section-activites {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            height: auto;
+            margin: auto;
+            margin-bottom: 25px;
+            width: 100%;
+            }
+            .box-activites-1 {
+              width: 90%;
+             
               }
-              .popular-stars{
-                margin-top: 85px;
-              }
+              .box-activites-2 {
               
-              .section-activites {
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                align-items: center;
-                height: auto;
-                margin: auto;
-                margin-bottom: 25px;
-                width: 100%;
-                }
-                .box-activites-1 {
-                width: 90%;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                justify-content: center;
-                }
-                .box-activites-2 {
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                width: 90%;
-                -webkit-box-align: center;
-                -ms-flex-align: center;
-                align-items: center;
-                }
-                .box-activites-a,
-                .box-activites-b,
-                .box-activites-c {
-                width: 100%;
-                height: 290px;
-                margin-bottom: 25px;
-                }
-                .imageactivites_a,
-                .imageactivites_b,
-                .imageactivites_c {
-                height: 250px;
-                }
+              width: 100%;
+            }
+              .box-activites-c{
+                margin-right: 5%;
+              }
+             
+              
+              .box-activites-a,
+              .box-activites-b,
+              .box-activites-c {
+              width: 100%;
+              height: 240px;
+              
+              }
+              .imageactivites_a,
+              .imageactivites_b,
+              .imageactivites_c {
+              height: 190px;
+              }
+         
                 footer {
                   -webkit-box-orient: vertical;
                   -webkit-box-direction: horizontal;
@@ -870,8 +859,10 @@ footer ul li {
               }
               .box-lodging {
                 width: 90%;
-                height: 250px;
-                margin-right: 1%;
+                height: 230px;
+              }
+              .image_lodging{
+                height: 150px;
               }
              
               .section-activites {
