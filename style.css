@@ -853,6 +853,9 @@ footer ul li {
               margin-top: 25px;
               position: absolute;
             }
+            .search h1{
+              margin-right: 5%;
+            }
             .searchfield{
               width: 65%;
             }
