@@ -740,12 +740,14 @@ footer ul li {
               padding-top: 40px;
               border-bottom: solid 2.5px #0065fc;
             }  
-           .sinscrire {
+           
+           
+          
+         
+          .sinscrire {
             margin-right: 15px;
             font-size: 17px;
           }
-           
-            
           .logo {
             margin-top: 25px;
             position: absolute;
@@ -803,10 +805,8 @@ footer ul li {
               .popular-stars{
                 margin-top: 85px;
               }
-             
               
-      
-               .section-activites {
+              .section-activites {
                 -webkit-box-orient: vertical;
                 -webkit-box-direction: normal;
                 -ms-flex-direction: column;
@@ -839,13 +839,13 @@ footer ul li {
                 .box-activites-b,
                 .box-activites-c {
                 width: 100%;
-                height: 280px;
+                height: 290px;
                 margin-bottom: 25px;
                 }
                 .imageactivites_a,
                 .imageactivites_b,
                 .imageactivites_c {
-                height: 240px;
+                height: 250px;
                 }
                 footer {
                   -webkit-box-orient: vertical;
@@ -870,7 +870,7 @@ footer ul li {
               }
               .box-lodging {
                 width: 90%;
-                height: 210px;
+                height: 250px;
                 margin-right: 1%;
               }
              
@@ -1088,18 +1088,6 @@ footer ul li {
 
 
 
-
-            
-
-
-           
-            
-            
-           
-            
-              
-              
-             
 
 
 
